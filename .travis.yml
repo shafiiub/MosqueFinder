@@ -1,0 +1,9 @@
+language: ruby
+before_script:
+- pip install --user awscli
+script:
+- aws s3 sync public/ s3://mosque-finder-aus --acl public-read --delete
+- aws cloudfront create-invalidation --distribution-id E3RII6TTSRX6A1 --paths '/*'
+branches:
+  only:
+  - master

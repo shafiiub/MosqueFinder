@@ -12,7 +12,18 @@ script:
   - node loadStatePrayerTimeSitemap.js
   - node loadStateList.js
   - node loadMosqueDetails.js
-  - aws s3 sync public/ s3://mosque-finder-aus --quiet --acl public-read --delete
+  - aws s3 sync public/mosque s3://mosque-finder-aus/mosque --quiet --acl public-read --delete
+  - aws s3 sync public/index.html s3://mosque-finder-aus --acl public-read --delete
+  - aws s3 sync public/nsw s3://mosque-finder-aus/nsw --quiet --acl public-read --delete
+  - aws s3 sync public/robots.txt s3://mosque-finder-aus --acl public-read --delete
+  - aws s3 sync public/vic s3://mosque-finder-aus/vic --quiet --acl public-read --delete
+  - aws s3 sync public/qld s3://mosque-finder-aus/qld --quiet --acl public-read --delete
+  - aws s3 sync public/tas s3://mosque-finder-aus/tas --quiet --acl public-read --delete
+  - aws s3 sync public/sa s3://mosque-finder-aus/sa --quiet --acl public-read --delete
+  - aws s3 sync public/wa s3://mosque-finder-aus/wa --quiet --acl public-read --delete
+  - aws s3 sync public/nt s3://mosque-finder-aus/nt --quiet --acl public-read --delete
+  - aws s3 sync public/act s3://mosque-finder-aus/act --quiet --acl public-read --delete
+  - aws s3 sync public/assets s3://mosque-finder-aus/assets --quiet --acl public-read --delete
   - aws cloudfront create-invalidation --distribution-id E3RII6TTSRX6A1 --paths '/*'
 branches:
   only:

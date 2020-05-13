@@ -2,7 +2,6 @@ language: node_js
 node_js:
   - 13.9.0
 before_script:
-  - rm -r public/nsw public/nt public/qld public/sa public/tas public/vic public/wa public/act public/mosque
   - npm install -g fs@0.0.1-security
   - npm install -g json@^9.0.6
   - npm install -g express@4.17.1

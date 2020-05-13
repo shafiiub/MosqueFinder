@@ -11,8 +11,15 @@ const async = require("async")
 
 const rPath = './_data/mosque_json-test.json';
 const rTemplate = './_templates/mosque-detail.html';
+var siteMapTemplate= '<?xml version="1.0" encoding="UTF-8"?>\n'+
+                     '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">\n'
+                     ;
+
 var mTemplate ='';
 var data = '';
+
+var Sitemap='';
+
 
 function mkDirByPathSync(targetDir, opts) {
     const isRelativeToScript = opts && opts.isRelativeToScript;
@@ -156,6 +163,7 @@ try {
             .replace(/{{jummahOther}}/g, jummahAddress)
                        
             ; 
+
             if (!Fsw.existsSync(dir)){
                 //console.log("create folder:" + dir);
                 //Fsw.mkdirSync(dir);
@@ -170,7 +178,21 @@ try {
               }
               console.log (filename + " write")
             });
+            Sitemap = Sitemap + "<url><loc>https://mosque-finder.com.au/mosque/"+data[id].URLSegment+"</loc></url>\n";
+               
+      
     }
+
+    q.push({ filename: __dirname +'/public/mosque/sitemap.xml', data:siteMapTemplate+Sitemap }, function (err,filename) {
+      //console.log(filename + " write");
+      if(err){
+        console.error(err)
+        throw err
+      }
+      console.log (filename + " write")
+    });
+
+
   } catch(err) {
     console.error(err)
   }

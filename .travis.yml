@@ -1,9 +1,20 @@
-language: ruby
+language: node_js
+node_js:
+  - 13.x
 before_script:
-- pip install --user awscli
+  - rm -r public/nsw public/nt public/qld public/sa public/tas public/vic public/wa public/act public/mosque
+  - npm install -g fs@0.0.1-security
+  - npm install -g json@^9.0.6
+  - npm install -g express@4.17.1
+  - npm install -g async@3.2.0
+  - pip install --user awscli
 script:
-- aws s3 sync public/ s3://mosque-finder-aus --acl public-read --delete
-- aws cloudfront create-invalidation --distribution-id E3RII6TTSRX6A1 --paths '/*'
+  - node copyDataFiles.js
+  - node loadStatePrayerTimeSitemap.js
+  - mode loadStateList.js
+  - node loadMosqueDetails.js
+  - aws s3 sync public/ s3://mosque-finder-aus --acl public-read --delete
+  - aws cloudfront create-invalidation --distribution-id E3RII6TTSRX6A1 --paths '/*'
 branches:
   only:
   - master

@@ -31,7 +31,7 @@ function mkDirByPathSync(targetDir, opts) {
       const curDir = path.resolve(baseDir, parentDir, childDir);
       try {
         fs.mkdirSync(curDir);
-        console.log(`Directory ${curDir} created!`);
+        //console.log(`Directory ${curDir} created!`);
       } catch (err) {
         if (err.code === 'EEXIST') { // curDir already exists!
           //console.log(`Directory ${curDir} already exists!`);
@@ -54,7 +54,7 @@ function mkDirByPathSync(targetDir, opts) {
   }
   
   var q = async.queue(function(task, callback) {
-    console.log(task.filename);
+    //console.log(task.filename);
     if(task.read){
       Fs.readFile(task.filename,"utf-8",function (err, data_read) {
               callback(err,task.filename,data_read);
@@ -90,7 +90,7 @@ q.push({filename:rTemplate1, read:'yes'}, function (err,filename, data) {
 });
 
 
-console.log("\n==========START==============\n");
+console.log("\n==========START loadStatePrayerTimeSitemap.js==============\n");
 //function readFromFile(rPath){
 
     Fs.readFile(rPath , 'utf8', (err, json) => {
@@ -128,7 +128,7 @@ console.log("\n==========START==============\n");
                         console.error(err)
                         throw err
                       }
-                      console.log (filename + " write")
+                      //console.log (filename + " write")
                     });
                     /*Fsw.writeFile(wPath, html,(err) =>{
                         if(err){
@@ -350,7 +350,7 @@ console.log("\n==========START==============\n");
             console.error(err)
           }
 
-          console.log("\n==========index files==============\n");
+          console.log("\n==========END loadStatePrayerTimeSitemap.js==============\n");
           
         
 })

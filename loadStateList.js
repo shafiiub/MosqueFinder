@@ -24,7 +24,7 @@ function mkDirByPathSync(targetDir, opts) {
       const curDir = path.resolve(baseDir, parentDir, childDir);
       try {
         fs.mkdirSync(curDir);
-        console.log(`Directory ${curDir} created!`);
+        //console.log(`Directory ${curDir} created!`);
       } catch (err) {
         if (err.code === 'EEXIST') { // curDir already exists!
           //console.log(`Directory ${curDir} already exists!`);
@@ -47,7 +47,7 @@ function mkDirByPathSync(targetDir, opts) {
   }
   
   var q = async.queue(function(task, callback) {
-    console.log(task.filename);
+    //console.log(task.filename);
     if(task.read){
       Fs.readFile(task.filename,"utf-8",function (err, data_read) {
               callback(err,task.filename,data_read);
@@ -98,7 +98,7 @@ q.push({filename:rPath, read:'yes'}, function (err,filename, json) {
   data = JSON.parse(json);
   console.log (filename + " Json -" + "length: " + json.length)
 
-console.log("\n==========START==============\n");
+console.log("\n==========START loadStateList.js==============\n");
 //function readFromFile(rPath){
 var item ='', nswItem = '',vicItem = '',qldItem = '',actItem = '',tasItem = '',saItem = '',waItem = '',ntItem = '';
 var html ='';
@@ -309,4 +309,4 @@ try {
     console.error(err)
   }
 });
-          console.log("\n==========END SUBURB Pages==============\n");
+          console.log("\n==========END loadStateList.js==============\n");

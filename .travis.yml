@@ -10,9 +10,9 @@ before_script:
 script:
   - node copyDataFiles.js
   - node loadStatePrayerTimeSitemap.js
-  - mode loadStateList.js
+  - node loadStateList.js
   - node loadMosqueDetails.js
-  - aws s3 sync public/ s3://mosque-finder-aus --acl public-read --delete
+  - aws s3 sync public/ s3://mosque-finder-aus --quiet --acl public-read --delete
   - aws cloudfront create-invalidation --distribution-id E3RII6TTSRX6A1 --paths '/*'
 branches:
   only:

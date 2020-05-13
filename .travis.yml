@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - 13.x
+  - 13.9.0
 before_script:
   - rm -r public/nsw public/nt public/qld public/sa public/tas public/vic public/wa public/act public/mosque
   - npm install -g fs@0.0.1-security

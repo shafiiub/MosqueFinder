@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
     <link rel="stylesheet" href="/assets/css/user.style.css" type="text/css">
 
-    <title>{{title}}</title>
+    <title>Home - Australian Mosque Finder</title>
 
 </head>
 
@@ -175,7 +175,7 @@
                 <section>
                     <div class="container">
                         <div class="block">
-                            <a href="#"><img src="assets/img/ad-banner.png" alt=""></a>
+                            <a href="#"><img src="/assets/img/ad-banner.png" alt=""></a>
                         </div>
                     </div>
                 </section>
@@ -285,7 +285,7 @@
     var _latitude = -23.730041;
     var _longitude = 133.945313;
     //var jsonPath = 'assets/json/mosque_json.json';
-    var jsonPath = '/assets/json/mosque-home.json';
+    var jsonPath = '/assets/json/mosque_home.json';
     // Load JSON data and create Google Maps
 
     $.getJSON(jsonPath)
@@ -307,6 +307,15 @@
     autoComplete();
 
     document.getElementById("copyRight").innerHTML ='<a href="https://shafi.com.au">Shafi.com.au</a> &copy; '+ new Date().getFullYear()+', All rights reserved';
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-3236602-8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-3236602-8');
 </script>
 
 <!--[if lte IE 9]>

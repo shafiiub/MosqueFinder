@@ -9,7 +9,7 @@ const path = require('path');
 
 const async = require("async")
 
-const rPath = './_data/mosque_json-test.json';
+const rPath = './_data/mosque_json.json';
 const rTemplate = './_templates/mosque-detail.html';
 var siteMapTemplate= '<?xml version="1.0" encoding="UTF-8"?>\n'+
                      '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">\n'

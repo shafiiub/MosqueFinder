@@ -14,9 +14,9 @@ script:
   - node loadMosqueDetails.js
   - aws s3 rm s3://mosque-finder-aus --quiet --recursive
   - aws s3 sync public/mosque s3://mosque-finder-aus/mosque --quiet --acl public-read
-  - aws s3 cp public/index.html s3://mosque-finder-aus --acl public-read --delete
+  - aws s3 cp public/index.html s3://mosque-finder-aus --acl public-read
   - aws s3 sync public/nsw s3://mosque-finder-aus/nsw --quiet --acl public-read --delete
-  - aws s3 cp public/robots.txt s3://mosque-finder-aus --acl public-read --delete
+  - aws s3 cp  public/robots.txt s3://mosque-finder-aus --acl public-read
   - aws s3 sync public/vic s3://mosque-finder-aus/vic --quiet --acl public-read --delete
   - aws s3 sync public/qld s3://mosque-finder-aus/qld --quiet --acl public-read --delete
   - aws s3 sync public/tas s3://mosque-finder-aus/tas --quiet --acl public-read --delete

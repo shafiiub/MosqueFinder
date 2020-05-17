@@ -9,7 +9,7 @@ const path = require('path');
 
 const async = require("async")
 
-const rPath = './_data/mosque_json-test.json';
+const rPath = './_data/mosque_json.json';
 const rTemplate = './_templates/state-listing.html';
 var mTemplate ='';
 var data = '';

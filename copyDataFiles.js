@@ -19,3 +19,13 @@ try {
 } catch(err) {
   throw err
 }
+
+pathToFile = __dirname + "/_data/mosque_home.json";
+pathToNewDestination = __dirname+"/public/assets/json/mosque_home.json";
+ 
+try {
+  fs.copyFileSync(pathToFile, pathToNewDestination)
+  console.log("Successfully copied and moved the file!")
+} catch(err) {
+  throw err
+}

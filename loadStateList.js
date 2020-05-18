@@ -182,7 +182,7 @@ try {
             }else if(/sa/ig.test(data[id].State)){
               saItem = saItem + item;
             }else if(/nt/ig.test(data[id].State)){
-              nttem = ntItem + item;
+              ntItem = ntItem + item;
             }else if(/wa/ig.test(data[id].State)){
               waItem = waItem + item;
             }

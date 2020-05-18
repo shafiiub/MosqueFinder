@@ -3,8 +3,21 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 var mapStyles = [ {"featureType":"road","elementType":"labels","stylers":[{"visibility":"simplified"},{"lightness":20}]},{"featureType":"administrative.land_parcel","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"landscape.man_made","elementType":"all","stylers":[{"visibility":"on"}]},{"featureType":"transit","elementType":"all","stylers":[{"saturation":-100},{"visibility":"on"},{"lightness":10}]},{"featureType":"road.local","elementType":"all","stylers":[{"visibility":"on"}]},{"featureType":"road.local","elementType":"all","stylers":[{"visibility":"on"}]},{"featureType":"road.highway","elementType":"labels","stylers":[{"visibility":"simplified"}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road.arterial","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":50}]},{"featureType":"water","elementType":"all","stylers":[{"hue":"#a1cdfc"},{"saturation":30},{"lightness":49}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"hue":"#f49935"}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"hue":"#fad959"}]}, {featureType:'road.highway',elementType:'all',stylers:[{hue:'#dddbd7'},{saturation:-92},{lightness:60},{visibility:'on'}]}, {featureType:'landscape.natural',elementType:'all',stylers:[{hue:'#c8c6c3'},{saturation:-71},{lightness:-18},{visibility:'on'}]},  {featureType:'poi',elementType:'all',stylers:[{hue:'#d9d5cd'},{saturation:-70},{lightness:20},{visibility:'on'}]} ];
 var $ = jQuery.noConflict();
+var jsonPath = '/assets/json/mosque_home.json';
+var dataJson='';
+// Load JSON data and create Google Maps
+
 $(document).ready(function($) {
     "use strict";
+
+    $.getJSON(jsonPath)
+        .done(function(json) {
+            dataJson = json;
+        })
+        .fail(function( jqxhr, textStatus, error ) {
+            console.log(error);
+        })
+    ;
 
     if( $('body').hasClass('navigation-fixed') ){
         $('.off-canvas-navigation').css( 'top', - $('.header').height() );
@@ -19,7 +32,7 @@ $(document).ready(function($) {
 
     $('.quick-view, .results .item').live('click',  function(){
         var id = $(this).attr('id');
-        quickView(id);
+        quickView(id, dataJson);
         return false;
     });
 
@@ -548,13 +561,37 @@ function drawItemSpecific(category, json, a){
 
 // Quick View ----------------------------------------------------------------------------------------------------------
 
-function quickView(id){
+function quickView(id, json){
     $.ajax({
-        type: 'POST',
-        url: '/assets/external/_modal.html',
+        type: 'get',
+        url: '/assets/external/_modal.html?id='+id,
         data: id,
         success: function (data) {
             // Create HTML element with loaded data
+            var features ='', gallery='';
+            if (json.data[id].gallery && json.data[id].gallery.length > 0){
+                for (var x=0; x<json.data[id].gallery.length; x++){
+                  gallery = gallery + '<img src="'+json.data[id].gallery[x]+'">'
+                }
+              }else{
+                gallery ='<img src="/assets/img/items/1.jpg" alt="">'
+              }
+
+            if (json.data[id].features && json.data[id].features.length > 0){
+                for (var x=0; x<json.data[id].features.length; x++){
+                  features = features +  '<li>'+json.data[id].features[x]+'</li>';
+                }
+              }
+            data = data.replace(/{{title}}/g, json.data[id].title)
+            .replace(/{{address}}/g, json.data[id].location)
+            .replace(/{{content}}/g, json.data[id].description)
+            .replace(/{{url}}/g, json.data[id].url)
+            .replace(/{{suburb}}/g, json.data[id].Suburb)
+            .replace(/{{state}}/g, json.data[id].State)
+            .replace(/{{category}}/g, json.data[id].category)
+            .replace(/{{features}}/g,features)
+            .replace(/{{image}}/g,gallery)
+
             $('body').append(data);
         }
     });

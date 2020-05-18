@@ -1,6 +1,4 @@
-
-{
-    "data": [
+[
         {
             "id": "8",
             "Title": "University of New England Masque",
@@ -55,6 +53,17 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/Uploads/wolli-creek-masjid-building.jpg"
+            ],
+            "features": [
+                "Street parking",
+                "Wudu facility",
+                "Toilets",
+                "Funeral services",
+                "Educational facility",
+                "Zakaat"
+            ],
             "Content": "<p>Khutbah in english. Open for 5 daily prayers &amp; jummah. Brother's entrance via Eden St or Burrows St. Sisters entrance via door close to Princess Highway. Run by Islamic Malay Australian Association. 150m from Arncliffe Train Station.</p>\n<h4>Qur'an Recitation Class (Sisters only)</h4>\n<p>Beginners When: Every Friday Time: 06:30pm Intermediate &amp; Advanced When: Every Thursday Time: After Maghreb</p>\n<h4>Usul Fiqh</h4>\n<p>When: Every Alternate Saturday Time: After Maghreb Tutor: Dr Amin Hady</p>\n<h4>Tafsir Class</h4>\n<p>When: Every Alternate Saturday Time: After Maghreb’ Tutor: Ust Lufti</p>\n<h4>Monthly Ya'asin Night</h4>\n<p>When: The first Saturday of every Month. Time: After Maghreb</p>"
         },
         {
@@ -79,6 +88,16 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/Uploads/artarmon-mosque.jpeg"
+            ],
+            "features": [
+                "Street parking",
+                "Wudu facility",
+                "Toilets",
+                "Educational facility",
+                "Non-muslim visit (by appointment) "
+            ],
             "Content": "<p><span>5 times prayers daily performed. </span>Khutbah Arabic and English. Starting time 1:15pm. Mosque located 200 meters from the Artarmon train station. <br>Seperate area available for females, via the side entrance through the drive way</p>\n<h4>Activities</h4>\n<ul><li>9 AM-11 AM: Sunday,Arabic/Qur'an,Class for anyone interested</li>\n<li>4:30 PM-5:30 PM: Sunday,Islamic Studies,New Muslims/non-Muslims class</li>\n<li>1.15-2:00pm: Friday,Jummah,weekly sermon &amp; prayer</li>\n<li>2PM-2:45 PM: Friday,Islamic Studies,weekly sermon &amp; prayer</li>\n</ul>"
         },
         {
@@ -103,6 +122,13 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [
+                "Street parking",
+                "Toilets"
+            ],
             "Content": "<p>5 minute walk from Ashfield train station. Open for 5 daily prayers</p>"
         },
         {
@@ -127,6 +153,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Located next to the Chinese Restaurant and directly opposite Wood Fired Pizza shop. Possibly located upstairs (access via a side door). Close to the corner of Hume Highway | Liverpool Road &amp; Brown Street</p>"
         },
         {
@@ -151,6 +181,12 @@
             "JummahAddress": "2 High St, Hornsby, NSW",
             "JummahLatitude": "-33.70447",
             "JummahLongitude": "151.09713",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [
+                "Street parking"
+            ],
             "Content": "<p>Access available for every daily Prayer (except Friday Jummah)</p>\n<p> </p>\n<p> </p>"
         },
         {
@@ -175,6 +211,12 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [
+                "Educational facility"
+            ],
             "Content": "<p>5 Daily players available including separate location for sisters</p>\n<p>Jummah held at the back of the Bookshop. Jummah 1:15pm all year round. Opened for 5 daily prayers. (Jummah is not available for sisters) <br>Musallah is located at the back of the Bukhari House Bookshop. Entrance usually through the front door of the bookshop. Corner of Beatrice Street</p>\n<ul><li>Lessons on Wednesday and Friday's 7.15pm. Brothers &amp; Sisters</li>\n<li>Kids Quran Saturday 10am</li>\n<li>Mens Quran Monday nights</li>\n</ul>"
         },
         {
@@ -199,6 +241,12 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/Uploads/Build-the-masjid.png"
+            ],
+            "features": [
+                "Street parking"
+            ],
             "Content": "<p>Masjid is open for 5 Prayers and Jummah at 349 Chisholm rd Auburn, all our lessons &amp; events will be held external to the centre. Please check with the venue as to whether opened for all 5 daily prayers or whether opened only during selected times</p>"
         },
         {
@@ -223,6 +271,18 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/Uploads/auburn-gallipoli-mosque.jpg"
+            ],
+            "features": [
+                "Car park ",
+                "Street parking",
+                "Wudu facility",
+                "Disabled access",
+                "Toilets",
+                "Educational facility",
+                "Non-muslim visit (by appointment) "
+            ],
             "Content": "<p>Open for 5 daily prayers. Khutbha is in Turkish. Jummah starting time 1:15PM (12:15PM daylight saving). Short walk to Auburn train station. This majestic mosque can be visited by non-Muslims at any time by appointment. A tour guide will be organized for group visits. Please visit their website or contact them for more information</p>"
         },
         {
@@ -247,6 +307,13 @@
             "JummahAddress": "Civic Centre, 1 Susan Street, Auburn, NSW 2144",
             "JummahLatitude": "-33.85299",
             "JummahLongitude": "151.03345",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [
+                "Street parking",
+                "Toilets"
+            ],
             "Content": "<p>Khutbah Arabic and EnglishOpen for 5 daily prayers. Known as the Auburn Islamic Centre. Entrance via the glass door on the right side corner of the building on the lower ground floor next to the entrance to the undercover car park. Usually only opened during daily jammat salat times unless classes or special events are on.</p>\n<p>Jummah Prayer 12:00</p>\n<p>Auburn Islamic Community Centre was one of the first established places for Muslims to perform acts of Worship in Auburn. Established in 1997. AICC has been the centre of the local Islamic community for many years, in this time volunteers have come together to establish a warm place of worship, education and youth activities.</p>"
         },
         {
@@ -271,6 +338,13 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [
+                "Street parking",
+                "Toilets"
+            ],
             "Content": "<p>The Jummah prayer starts at 12.15pm in winter and 1.15pm in summer. Khutbah Arabic and English. Open for Jummah prayer ONLY. Located next to the Auburn Police Station &amp; the Auburn Library</p>"
         },
         {
@@ -295,6 +369,12 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/Uploads/Auburn-Omar-Masjid.jpg"
+            ],
+            "features": [
+                "Street parking"
+            ],
             "Content": "<p>(Building currently under construction)</p>"
         },
         {
@@ -319,6 +399,10 @@
             "JummahAddress": "15 Winspear Avenue, Bankstown. NSW 2200",
             "JummahLatitude": "-33.91689",
             "JummahLongitude": "151.03362",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Open for all 5 daily prayers. Jummah held at a seperate location. Turn into Adnum Lane which is situated right next to 6 Fetherstone Street (walk to the end of the Adnum Lane, then turn 'left' and the musalla is located on the top of the stairs)</p>"
         },
         {
@@ -343,6 +427,17 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/Uploads/Daar-Ibn-Abbas-College-1.jpg",
+                "/assets/Uploads/Daar-Ibn-Abbas-College.jpg"
+            ],
+            "features": [
+                "Car park ",
+                "Street parking",
+                "Wudu facility",
+                "Toilets",
+                "Educational facility"
+            ],
             "Content": "<p>Open for 5 daily prayers and Jummah prayer. Run by Daar Ibn Abbas College</p>\n<p>Daar Ibn Abbas Musullah currently caters for over 500 people joining in the 5 daily prayers, Jummah, Eid, Taraweeh and Educational gatherings.</p>\n<p><span>Housing Sydney’s First Full Time Quran School for Boys and Girls.</span><br><span>With heaps of onsite parking, separate sections for Men and Women, Wudu facilities, Audio and Visual throughout.</span></p>"
         },
         {
@@ -367,6 +462,12 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [
+                "Street parking"
+            ],
             "Content": "<p>Khutbha starts at 1:15pm. Language details unknown. Please check the website for salat | prayer | namaz times that the centre is opened for.</p>\n<p>Fitya is a non-for profit youth organisation which was established on April 2008 by a group Australian Muslim brothers and sisters. Educational classes &amp; courses held on site as well.</p>"
         },
         {
@@ -391,6 +492,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Strictly open only for jummah. Walkable distance from Bankstown train station</p>"
         },
         {
@@ -415,6 +520,12 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [
+                "Street parking"
+            ],
             "Content": "<p>Khutbah Arabic and English. Open for all 5 daily prayers</p>"
         },
         {
@@ -439,6 +550,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Open for all 5 daily prayers. Both brothers and sisters are welcome and there is a room for sisters and separate ablution facilities available. Entry to the Mosque is via the carport entrance. There is an enclosed play area available in the back yard however children must be supervised at all times. </p>"
         },
         {
@@ -463,6 +578,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>As most of you should now be aware our long tenancy at SDA Church on Spurway Drive for Jummah prayer has now come to an end. Alhamdulillah we have been lucky enough to secure ‘Castle Grand’ Baulkham Hills Shire Council Facility in the heart of Castle Hill CBD to replace SDA.</p>\n<p>Castle Grand, 14 Pennant St, Castle Hill NSW 2154 (main entrance through corner Pennant St &amp; Castle St, one level below Castle Hill Library)</p>\n<p>Khutba: 1:15 pm to 1:45 pm approx.</p>\n<p>Jummah Salah: 1:45 pm around (Please allow +/- 5/10 minutes depending on the Khateeb – Please finish &amp; leave the premises not later than 2.25 pm.)</p>\n<p>Halls:<br><strong>Halls for Men</strong>: Tribute &amp; Rebellion<br><strong>Hall for Sisters</strong>: Wexford</p>\n<p>Prayer mats:<br> NO PRAYER MATS WILL BE PROVIDED. Please bring your own prayer mats for the time being as Council will not provide storage at the hall.</p>\n<p>Wudu:<br> It is requested to please make wudu prior to arriving at the venue.</p>\n<p>Parking:<br> There is limited parking in the basement car park at the venue. We suggest to leave it for the Sisters, Elderly, Sick, Khateeb, Moazan &amp; Volunteers. Please allow some extra time for proper parking.</p>"
         },
         {
@@ -487,6 +606,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/Uploads/belmore-masjid.jpg"
+            ],
+            "features": [],
             "Content": "<p>Khutbah Arabic and English. Open for 5 daily prayers. Walking distance to Belmore train station (via Burwood Road)</p>"
         },
         {
@@ -511,6 +634,12 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/Uploads/Blacktown-Mosque-1.jpg"
+            ],
+            "features": [
+                "Street parking"
+            ],
             "Content": "<p>Khutbha in Afghani. Open for all 5 daily prayers. Located corner of Prince Street and Fourth Avenue. Entrance via the Prince Street gate. Run by the Afghan Community Support Association of NSW Australia</p>"
         },
         {
@@ -535,6 +664,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Musalla is located on top of the 'Live Bait' fishing shop (corner of Bay Street &amp; Queens Road)</p>"
         },
         {
@@ -559,6 +692,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/Uploads/afghan-mosque-gs.jpg"
+            ],
+            "features": [],
             "Content": "<p>Close to the border of South Australia. Mosque is located at the corner of Williams Street and Buck Street</p>\n<p><strong>Broken Hill Mosque</strong><br> Australia's first mosque was built at Maree in northern South Australia in 1861, the first large mosque was built in Adelaide in 1890, and the first mosque in NSW in Broken Hill in 1887. The mosque was originally located at a camp in West Broken Hill and was relocated to its present site about 1903-1904. It was constructed by the Afghans and comprises a modest structure made from wood and corrugated iron sheeting, painted rust red (which is the colour of the original mosque and a typical colour of Broken Hill). The adjoining anteroom is also constructed of the same materials. The mosque sits on a dusty site at the edge of town, with an avenue of date palm trees, planted in 1965 by the Broken Hill Historical Society. At the entrance of the site are two olive trees which were planted by The Islamic Council of NSW in December 2008. Surrounding the mosque are original camel wagon wheels made from wood and iron used by prominent Afghans in the town; mainly Shamroze Khan and Poujen Khan. To the far eastern corner of the site is the water trough used by the men to make their ablutions before they entered the mosque. Upon removing their footwear the men stood beside the concrete channel as water was poured over their feet and they entered the mosque using specially constructed stepping stones which are now housed in the adjoining museum.</p>\n<p>The mosque was well used even when the Ghan community diminished in later years and the few Muslims remaining in Broken Hill continued to use it regularly up till 1940 and then less frequently until the death of the last Mullah in the 1950's. After his death the mosque fell into disuse and was vandalised. Dost Mahomet was a prominent Afghan Camel driver who worked at Broken Hill. He arrived with the camels and later travelled part of the distance and assisted the explorers. His grave lies three kilometres from Menindee, on the road to Broken Hill, and is the first known Muslim person to be buried on Australian soil (Matthews, 1997). At present there are few descendants of the early Afghan families in Broken Hill. The mosque has been renovated and refurnished by members and friends of the Broken Hill Historical Society and the Islamic Council of NSW to mark a unique but important phase in the development of transport in the West Darling district of NSW.</p>\n<p><a href=\"http://www.almirajsuficentre.org.au/islamic_history_in_broken_hill.php\">Read the full story</a></p>"
         },
         {
@@ -583,6 +720,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Open for all 5 daily prayers. The street is in between the Burwood train station and Westfield shopping centre. Enter through main entrance to building and go upstairs.</p>"
         },
         {
@@ -607,6 +748,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/Uploads/Uthman-Bin-Affan-Mosque.jpg"
+            ],
+            "features": [],
             "Content": "<p>Jummah held onsite. Starting time and language details unknown. Open for 5 daily prayers. Closer to the corner of St Johns Road &amp; Water Street. 3km walk from the Cabramatta train station. Known as the Othman Bin Affan Mosque</p>"
         },
         {
@@ -631,6 +776,14 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [
+                "Car park ",
+                "Street parking",
+                "Toilets"
+            ],
             "Content": "<p>Information unknown</p>"
         },
         {
@@ -655,6 +808,14 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [
+                "Car park ",
+                "Street parking",
+                "Toilets"
+            ],
             "Content": "<p>Unconfirmed whether jummah is held at the musalla. UWS Campbelltown - Behind Building 4 (and in front of the computer labs). Short walk from Macarthur train station. Close to Blair Athol, Englorie Park, Ambarvale, Glen Alpine, Mt Annan</p>"
         },
         {
@@ -679,6 +840,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Jummah is 1.15pm. Confirmation required whether opened for daily 5 prayers or even a few prayers per day.</p>"
         },
         {
@@ -703,6 +868,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Khutbha usually in arabic. Jummah starts in winter at 1:15PM. Mussallah located near Loch St &amp; Butler Ave (connecting with Wilfred Lane)</p>"
         },
         {
@@ -727,6 +896,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Jummah 12:15pm or 1:15pm depending on daylight savings time. Only for Jummah. Not open for all 5 daily prayers. Held at the Terry Lamb Complex. Entry via Campbell Hill Road.</p>"
         },
         {
@@ -751,6 +924,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p><span class=\"skimlinks-unlinked\">Jummah Prayer is starting at 1.00PM local time. All</span><span> Brothers and Sisters in Islam are welcome. </span></p>"
         },
         {
@@ -775,6 +952,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>information unknown</p>"
         },
         {
@@ -799,6 +980,13 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/Uploads/bilal-mosque.png"
+            ],
+            "features": [
+                "Street parking",
+                "Toilets"
+            ],
             "Content": "<p>Bilal Mosque provides Jum'ah prayers each Friday. Khutbah is in TurkishLocated 10 minutes from Wollongong. Tarawih (or Taraweeh) prayers are conducted throughout the course of Ramadan. There is also a Turkish shop next door selling various food such as sweets, nuts and turkish lemonade. Near Cringila train station. Located off Five Islands Road and then Lake Ave. Close to Spring Hill, Lake Heights, Berkeley, Port Kembla, Warrawong</p>"
         },
         {
@@ -823,6 +1011,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Starting time 1:15pm Room 320, Level 3, Old Teachers College, University of Sydney. Open for daily prayers between 7am and 7pm<br>Women's Prayer Room: Room U319<br>Men's Prayer Room: Room U320</p>"
         },
         {
@@ -847,6 +1039,12 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/Uploads/dee-why-mosque.jpg"
+            ],
+            "features": [
+                "Street parking"
+            ],
             "Content": "<p>Jummah khutbha starts at 1:30pm for the whole year Open for 5 daily prayers. Located off Pittwater Road and close to Dee Why Lagoon Reserve. Run by the Islamic Society of Manly Warringah. Closest masjid to Avalon, Palm Beach, Manly, Newport, Mona Vale, Terrey Hills, Elanora Heights, Warriewood, North Narrabeen, Frenchs Forest, Oxford Falls, Beacon Hill, Narrabeen, North Curl Curl, Allambie Heights, North Balgowlah, Curl Curl, Balgowlah, Manly Vale, Seaforth, Queenscliff, Brookvale, North Head</p>"
         },
         {
@@ -871,6 +1069,14 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/Uploads/dubbo-kotku-mosque-1.jpg"
+            ],
+            "features": [
+                "Car park ",
+                "Wudu facility",
+                "Toilets"
+            ],
             "Content": "<p>Jummah starts at 2:00pm for the whole year Mosque open for all 5 Jammat prayers. <br>If locked please contact one of the above phone numbers or arrange access via email contact. <br>Kotku Mosque is located at the corner of Fitzroy St &amp; Tamworth St</p>"
         },
         {
@@ -895,6 +1101,12 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/Uploads/dural-musalla.png"
+            ],
+            "features": [
+                "Street parking"
+            ],
             "Content": "<p>Small room at the back of the building next to the Photography Gallery business. Please do not go to the front or try and enter via 'Dural Galleries' building and access is available via the side path at the back of the major building. Please do not park onsite. Please park near the carpark of IGA &amp; pharmacy &amp; chinese restaurant at the Dural Village Shopping Centre (644 Old Northen Road, Dural) located across the road. Musallah located between the medical centre/physiotherapy centre &amp; the Caltex petrol station. </p>\n<p>Small room (with a double door, and a overhead porch with a light above the door).</p>\n<p>To gain access anytime when locked or for the daily prayer times please send an email to the above listed email address or call the above listed phone number</p>"
         },
         {
@@ -919,6 +1131,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/Uploads/erskineville-mosque.jpg"
+            ],
+            "features": [],
             "Content": "<p>Open for all 5 daily prayers. Khutbah in Turkish</p>"
         },
         {
@@ -943,6 +1159,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/Uploads/masjid-qubaa.jpg"
+            ],
+            "features": [],
             "Content": "<p>We are very pleased to announce that Phase I of Masjid Qubaa’ and Madrasah Qubaa’ has successfully been completed. It has been a productive journey which would not have been possible without your great support and commitment. Phase I of our project was predominantly the purchasing of the property in order to start the Masjid and Madrasah, and successfully achieving the DA Council approval to allow our site to run as a Masjid and Madrasah. It is now time that we proceed ahead in this voyage and commence Phase II of our project: The Construction of Masjid Qubaa’ and Madrasah Qubaa’.</p>\n<p><strong>Project Details</strong></p>\n<ul><li>Council Approved Location for Place of Worship</li>\n<li>Proposed site currently has 2 buildings with 655 SQM of floor space</li>\n<li>Proposed site is set on 2600+ SQM block</li>\n</ul>"
         },
         {
@@ -967,6 +1187,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Located at the corner of The Avenue &amp; Spring Garden Street. 600 meters from Granville train station. currently open only during the 5 daily prayer times (jammat time).</p>"
         },
         {
@@ -991,6 +1215,12 @@
             "JummahAddress": "12:20PM",
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [
+                "Street parking"
+            ],
             "Content": "<p>Jummah is held at Granville Town Hall Address: 10 Carlton St, Granville. Next to the Library and Police Station at Azhan raised on time, Khotba starts at around 12:20pm and finishes at around 1:00 pm every Friday.</p>"
         },
         {
@@ -1015,6 +1245,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Currently open only during the 5 daily prayer times (jammat time).</p>"
         },
         {
@@ -1039,6 +1273,12 @@
             "JummahAddress": "12:15PM",
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/Uploads/masjid-al-noor.jpg"
+            ],
+            "features": [
+                "Wudu facility"
+            ],
             "Content": "<p>5 time prayer daily. Women’s prayer facilities available. Jummah 12:15PM</p>"
         },
         {
@@ -1063,6 +1303,16 @@
             "JummahAddress": "1:15pm",
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/Uploads/green-valley-mosque.jpg"
+            ],
+            "features": [
+                "Car park ",
+                "Street parking",
+                "Wudu facility",
+                "Disabled access",
+                "Toilets"
+            ],
             "Content": "<p>Mosque managed by Muslim Leaque of New South Wales, Australia. In 1984 a group of approximately 20-30 Fiji Muslim brothers got together and formed an organization called Islam society of Liverpool. The main objective was to bring together Fiji Muslims living in Sydney for their special needs and to involve them in Islamic activities. The three trustees of the Association were Brothers Muhammad Ali, Mohamed Eqbal Sahaaly and Amjad Mehboob. The organization was later incorporated under the Associations ACT as The Muslim League of NSW Inc.</p>"
         },
         {
@@ -1087,6 +1337,12 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [
+                "Street parking"
+            ],
             "Content": "<p>No Jummah. Provide weekly lectures and lesson, for more information and updates call and text on 0415568575</p>\n<p><span>Entrance from car park at rear. Front of store is Darwich Butcher. Behind Dougies.</span></p>\n<p><span><span>Tuesday night lectures after Ishaa, Thursday night arabic fiqh lessons after Isha.</span></span></p>"
         },
         {
@@ -1111,6 +1367,10 @@
             "JummahAddress": "1:15 pm",
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Greenacre – United Arab Muslim Association Musallah</p>\n<p>Jummah 1:15 pm</p>"
         },
         {
@@ -1135,6 +1395,13 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [
+                "Street parking",
+                "Wudu facility"
+            ],
             "Content": "<p>Located close to the corner of Benerembah Lane &amp; Walla Avenue. Close to Griffith 'Pioneer Showground'</p>"
         },
         {
@@ -1159,6 +1426,13 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/Uploads/guildford-mosque.jpg"
+            ],
+            "features": [
+                "Street parking",
+                "Wudu facility"
+            ],
             "Content": "<p>Close to Guildford train station. Located close to Talbot Road.</p>"
         },
         {
@@ -1183,6 +1457,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Jummah starts at 12:30pm (during non-daylight savings time)Only open for Jummah prayer. 500 meter walk from Guildford train station. Not open for 5 daily prayers (please attend Clyde Street Musalla [South Granville] for daily prayers)</p>"
         },
         {
@@ -1207,6 +1485,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Not open yet - Under construction</p>"
         },
         {
@@ -1231,6 +1513,17 @@
             "JummahAddress": "1:30PM",
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/Uploads/omar-mosque-wollongong.jpg"
+            ],
+            "features": [
+                "Street parking",
+                "Wudu facility",
+                "Toilets",
+                "Marriage services",
+                "Funeral services",
+                "Counselling services"
+            ],
             "Content": "<p>Open for 5 daily prayers and friday prayer. Quick walk from North Wollongong train station</p>"
         },
         {
@@ -1255,6 +1548,15 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [
+                "Car park ",
+                "Street parking",
+                "Wudu facility",
+                "Toilets"
+            ],
             "Content": "<p>Located at Bulding 50 &amp; 56 (next to the 'Western Carpark'). There are Prayer facility (for both brothers and sisters), <br>Islamic library and Kitchen. MAWU also organise regular Jummah Prayer during academic session at Islamic Centre</p>"
         },
         {
@@ -1279,6 +1581,12 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [
+                "Street parking"
+            ],
             "Content": "<p>No Jummah onsite. Access available for all 5 daily prayer (except Jummah). Located directly accross the UltraTune car park and entrance to the specific driveway via 'Grand Avenue North' &amp; 'Tramway Avenue'.  Side entrance next to the white double garage house</p>"
         },
         {
@@ -1303,6 +1611,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/Uploads/beauchamp-road-musalla.jpg"
+            ],
+            "features": [],
             "Content": "<p>Musalla located on Beauchamp Road. Only open for Fajr, Asr &amp; Esha No Jummah. </p>\n<p>Prayers held at Matraville Primary School. Enter through gates as pictured from Beauchamp Street.</p>"
         },
         {
@@ -1327,6 +1639,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Open for 5 daily prayers</p>"
         },
         {
@@ -1351,6 +1667,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>AMWC Centre Entry through long driveway. Prayers are offered at the house adjacent to the Arts &amp; Crafts Centre.<br> Wudhu facilities available.<br> Women's prayer facilities available.</p>\n<p>Open for 5 daily prayers. No Jummah</p>"
         },
         {
@@ -1375,6 +1695,13 @@
             "JummahAddress": "12:55PM",
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/Uploads/campbelltown-masjid.jpg"
+            ],
+            "features": [
+                "Street parking",
+                "Wudu facility"
+            ],
             "Content": "<p>To cater the need of working class people with the short lunch/prayer break Iqama will be at 1:30pm despite of any season.<br>12:55 pm : Speech (English or Urdu)<br>01:15 pm : First Adhan and Sunnah Prayer<br>01:20 pm : Second Adhan and Khutbah (Arabic)<br>01:30 pm : Iqama for Juma prayer</p>\n<p><strong>Parking</strong></p>\n<p>Please help your Masjid by respecting neighbourhood and park wisely. Use roadside parking on Rudd Road and Leumeah station commuter parking.</p>\n<p>There is no parking inside the premises. Get more virtues by parking far away and walk. There is ample parking in <strong>“Brands on Sale”</strong> building, 32 Queen street, Campbelltown. Please follow the CM traffic warden(s) in Green Vests.</p>\n<p>May ALLAH reward you for your consideration and respect to Campbelltown Masjid and Masjid’s neighbours.</p>"
         },
         {
@@ -1399,6 +1726,14 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/Uploads/minto-mosque.jpg"
+            ],
+            "features": [
+                "Street parking",
+                "Wudu facility",
+                "Toilets"
+            ],
             "Content": "<p>Khutbah Arabic and English. Minto Mosque is a multicultural Association representing South Africans, Middle Eastern, Indian Subcontenient, European. Open for all 5 daily prayers and jummah. Easy access to Leumeah train station and also Minto train station. Minto Mosque (also known as Suburban Islamic Association) is a Islam community who believe in peace and working on helping others in need. Our Motto: Belief, Good Learning, Good Deeds.Friday Prayer starts at 12:45pm (during non daylight savings period) <br>Please check the above website for more detailed information</p>"
         },
         {
@@ -1423,6 +1758,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/Uploads/sydney-airport.jpg"
+            ],
+            "features": [],
             "Content": "<p>Jummah not held onsite. Closest recommendation: Mascot Botany Road Musalla - 2nd Floor, 1215 Botany Road, Mascot</p>\n<p>A prayer room is located on Level 3 of  International Terminal (T1) to accommodate the religious needs of all travellers (those who have passed through 'Customs'). A second prayer room is located within the taxi holding area at T1 to service the requirements of all taxi drivers. Level 3 - T1 &amp; Taxi Holding Area - T1, Cooks River Avenue, Wolli Creek, NSW 2020</p>"
         },
         {
@@ -1447,6 +1786,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Open for 5 daily prayers and Jummah</p>"
         },
         {
@@ -1471,6 +1814,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Open for all 5 daily prayers. Located at the corner of ANZAC Parade &amp; Todman Avenue.</p>"
         },
         {
@@ -1495,6 +1842,14 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [
+                "Street parking",
+                "Toilets",
+                "Wudu facility"
+            ],
             "Content": "<p>The musallah is located on the 3rd floor of the Squarehouse building. Jummah at the UNSW Gym, but locations may vary week to week. For those who are disabled, there is lift access at the back of the building through the fire door.</p>\n<p>Seperate Wudu Facilities available for Males and Females.<br>Meeting/general room next to prayer space.<br>Womens prayer facilities available.</p>"
         },
         {
@@ -1519,6 +1874,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/Uploads/Kingswood-musalla.jpg"
+            ],
+            "features": [],
             "Content": "<p>Starting time of 1:20pm for the whole year. Only open for Jummah prayer. Held at the Kingswood Neighbourhood Centre. Short walk to Kingswood train station. Located off Orth Street</p>"
         },
         {
@@ -1543,6 +1902,13 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [
+                "Street parking",
+                "Wudu facility"
+            ],
             "Content": "<p>Jummah 1:15 pm and 2:15 pm. Khutbah Arabic. Open for 5 daily prayers. Located at the corner of Railway Parade and Haldon Street</p>"
         },
         {
@@ -1567,6 +1933,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Not known whether jummah is held at the musallaUWS Penrith - Building H Multifaith Centre, Kingswood. Short walk from Kingswood train station. Closest muslim prayer room to Werrington, Cambridge Park, Jamisontown, Claremont Meadows.</p>"
         },
         {
@@ -1591,6 +1961,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Khutbah Arabic and English. Open for 5 daily prayers. Entry only through the side doors (towards the back of the church building), and not through the main front facing entrance. Jummah first jamma at 12:45pm and second jamma at 1:45pm.</p>\n<p>No parking on Ernest Street Please. All Parking should be in The Boulevarde.</p>"
         },
         {
@@ -1615,6 +1989,12 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [
+                "Street parking"
+            ],
             "Content": "<p>Khutbah in Arabic and occasionally English. Starting time unknown. Ahlus Sunnah Wal Jamah Association of Australia (ASWJ) Musallah. Lakemba Arcade 3rd floor, above the jim Open for all 5 prayers.</p>\n<p>It has an area available for sisters.</p>\n<p>Go up staircase next to shop.<br>No Wudu or toilet available.<br>Women’s facilities available. Women are not permitted after Zuhr salah on Saturdays as there are men’s classes running.<br>Men’s classes Saturday morning.</p>"
         },
         {
@@ -1639,6 +2019,16 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/Uploads/lakemba-mosque.jpg"
+            ],
+            "features": [
+                "Street parking",
+                "Wudu facility",
+                "Toilets",
+                "Funeral services",
+                "Non-muslim visit (by appointment) "
+            ],
             "Content": "<p>Open for 5 daily prayers. Khutbah in Arabic and occasionally English translation given at the end. <span>Women’s facilities available.</span></p>\n<p>The Imam Ali Bin Abi Taleb Mosque (also known as Lakemba Mosque) is one of the largest mosques in Australia. It is located in the suburb of Lakemba, New South Wales and is used most frequently by the residence of Lakemba and surrounding suburbs. The construction of the mosque was completed in 1977. It is owned and managed by the Lebanese Muslim Association.</p>"
         },
         {
@@ -1663,6 +2053,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Starts 1:15pm and finishes at 1:45pm (for the whole year). Brothers only venue. Strictly only jummah venue for brothers</p>"
         },
         {
@@ -1687,6 +2081,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Starts 1:15pm and finishes at 1:45pm (for the whole year). Brothers only venue. Strictly only jummah venue for brothers</p>"
         },
         {
@@ -1711,6 +2109,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Starts 1:15pm and finishes at 1:45pm (for the whole year). Brothers only venue. Strictly only jummah venue for brothers</p>"
         },
         {
@@ -1735,6 +2137,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>No Jummah. Currenly offer Maghrib &amp; Esha prayer</p>\n<p>Wudu facilities available. Women's facilities available.</p>\n<p>Quran class. Kids Islamic activities. Adult Islamic lecture weekly basis. Dawah Hub.</p>"
         },
         {
@@ -1759,6 +2165,14 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [
+                "Car park ",
+                "Street parking",
+                "Wudu facility"
+            ],
             "Content": "<p><span>Jummah 1:15 pm. Wudu facilities available and underground parking.</span></p>"
         },
         {
@@ -1783,6 +2197,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Khutbah Urdu and English. Only for Jummah. Not open for all 5 daily prayers. Friday prayers are held in the Community Hall (attached to the Lalor Park Library) on Freeman Street</p>"
         },
         {
@@ -1807,6 +2225,14 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [
+                "Street parking",
+                "Disabled access",
+                "Toilets"
+            ],
             "Content": "<p>At the moment we usually do Magrib and Isha prayers everyday and Jumua 1:15 pm</p>\n<p>There is space for men and women</p>\n<p>the new Masallah is at 28 Molesworth st, Lismore. It's the downstairs of the white building on the corner of Molesworth and Zadoc streets. The contact number is 0422871220. </p>"
         },
         {
@@ -1831,6 +2257,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Starting time 1:15pm. Strictly for Jummah prayer only. Not a five time a day prayer factility. BP petrol station is located corner of Leycester Street &amp; Orion Street. Please contact Brother Shahzad (0411 055 488) for more information. Part of the Lismore Islamic Community. Possible closest jummah venue for Ballina, Casino, Kyogle, Lennox Head, Byron Bay, Mullumbimby</p>"
         },
         {
@@ -1855,6 +2285,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Jummah Khutbah in Arabic and translation in English follows. Starting time 12:10pm. Open for salat 5 times a day. Australian Islamic House Masjid. Please check the above website for most up to date information. Turn off after Ash Road but before Bernera Road/Croatia Avenue when driving from Casual and Liverpool. Building located further down the turn-off after the multi space carpark</p>"
         },
         {
@@ -1879,6 +2313,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Khutbah in Arabic and Urdu. Jummah 1st Session 12.10pm 2nd Session 1.10pm. Open for 5 daily prayers and jummah. <br>Located opposite Hoxton Park Recreation Reserve. Also known as Hoxton Park Mosque | Masjid Bilal Hoxton Park</p>"
         },
         {
@@ -1903,6 +2341,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Only open for Maghrib and Isha prayers</p>"
         },
         {
@@ -1927,6 +2369,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p><span>The Global Islamic Youth Centre (GIYC) was established in July of 2000 by a handful of brothers seeking Allaah’s Pleasure by</span><span class=\"text_exposed_show\"> establishing a centre encompassing the needs of the local Islamic Community. Hence the vision was to cater for the physical, social, educational and religious needs, especially for the youth and the children, in accordance with the teachings of the Qur’aan and Sunnah and hence to gain the pleasure of the Almighty Creator.</span></p>\n<p>Open for day salat every day including Fajir salat, Wednesday night and friday night lectures. Closed Sunday.<br>Friday Jumaah Prayers khutbah is in English and it starts at 1:15pm.</p>\n<ol><li>Daily Prayers - Open everyday; Fajr, Dhuhr, Asr, Maghrib, Eshaa</li>\n<li>Jumaah Prayer - every Friday at GIYC</li>\n<li>Islamic Education - GIYC Shariah College for Brothers and Sisters. ( Qur’an, Hadeeth, Tajweed, Fiqh, Aqeedah, Arabic and Salaat / Prayer workshops )</li>\n<li>Inspirational Lectures - Islamic knowledge &amp; understanding for today’s generation</li>\n<li>Childrens Madrassah - Kindergarten right through to High School</li>\n<li>Islamic Guidance/Assistance &amp; Counselling - Qualified Islamic Scholars available at GIYC</li>\n<li>New Islamic Reverts Program – ‘Back to Basics Course.’ Guidance, follow up and assistance</li>\n<li>Welfare - Australian Zakaat Fund ( GIYC based for Australian Needy Muslims), Poor and Needy clothes drive, Food Parcels, supporting international organisations such as Human Appeal Charity and others</li>\n<li>Bookstore - Huge variety of the latest books, DVD’s, audio, accessories &amp; gifts as well as Internet Facilities</li>\n<li>Eid Prayers- Ramadan Eid Prayer and Adha Eid Prayer as well as celebrations</li>\n<li>Ramadan - Iftar, Taraweeh Prayers, Suhoor and Itikaf</li>\n</ol>"
         },
         {
@@ -1951,6 +2397,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Ground Floor - Don Everitt Building. Liverpool Hospital. Liverpool. NSW 2170. It is a special designated room &amp; area to use for prayer. Enter via corner of Gouldburn Steet &amp; Campbell Street. Back of Pathology and after the multi story carpark, 'turn right'. Access available upon request for times other than Jummah by visiting the Security Office that is located at the Hospital main entrance at the corner of Elizabeth Street &amp; Goulburn Street.</p>\n<p>New prayer room now available at the chapel on the 2nd floor opposite ICU unit. Take D left to 2nd floor exit to the right side, go to Chapel and turn left.</p>\n<p>Jummah 12:20pm. Wudu facilities are available. There is a barrier for women to pray at the back, same entry way though. An assortment of Attar and books for use.</p>"
         },
         {
@@ -1975,6 +2425,12 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [
+                "Car park "
+            ],
             "Content": "<p>Open only for Jummah. Held at the Whitlam Leisure Centre at the Corner of Memorial Avenue and Hume Highway. Plenty of parking on-site. Located at Woodward Park, near the intersection with the Hume Highway</p>"
         },
         {
@@ -1999,6 +2455,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p><span>Next to the Library, go in through the right side (opposite of the Library main entrance), then turn right and enter the main hall.</span></p>\n<p><span><span>Disabled toilet available for wudu.</span></span></p>"
         },
         {
@@ -2023,6 +2483,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Open for 5 daily prayers (except Jummah). Jumma is Held at Macquarie Fields Community Hall address 5 Fields Rd, Macquarie Fields, NSW, 2564</p>\n<p>Go up the stairs, next to Manoush Pizza store.</p>\n<div id=\"wpcf-field-other-facilities\" class=\"wpcf-field-wysiwyg wpcf-field-other-facilities\">\n<div class=\"wpcf-field-value wpcf-field-wysiwyg-value wpcf-field-other-facilities-value\">\n<p>Wudhu facilities available, to the left of the entrance all the way at the back. Some books available for use.</p>\n<ul><li>Monday 8pm: Quran Tafseer with Br Atiqur Rahman.</li>\n<li>Wednesday 8:30-9:30pm: IEC members general meeting.</li>\n<li>Thursday 5-9pm: Children’s Arabic/Quran classes with Mufti Hamid Ullah.</li>\n<li>Friday 5-7pm: Children’s Arabic/Quran classes with Mufti Hamid Ullah.</li>\n<li>Saturday 9:30-2:30pm: Children’s Arabic/Hifz class with Mufti Hamid Ullah.</li>\n<li>Sunday after Fajr: Tafseer Class with Mufti Hamid Ullah and Adult Qur’an Classes.</li>\n</ul></div>\n</div>"
         },
         {
@@ -2047,6 +2511,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p><span>Inside Glenquarie Community Centre &amp; Library. For parking, utilise Glenquarie Shopping Centre parking.</span><br><span>Hall opens 12:30pm</span></p>"
         },
         {
@@ -2071,6 +2539,15 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [
+                "Car park ",
+                "Street parking",
+                "Wudu facility",
+                "Toilets"
+            ],
             "Content": "<p><span>Enter through door which says \"Admin Only\". Once you enter, musallah is up the stairs</span></p>\n<p><span>Open for 5 daily prayers (except Jummah)</span></p>"
         },
         {
@@ -2095,6 +2572,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p><span><span>Jummah start 1:20pm. Wudhu facilities available</span></span></p>\n<p><span>Jummah prayed at Seddon park. Parking is usually full, so park on nearby streets. Warning: Look out for yellow markings on the road and bus stop signs (no parking zones).</span></p>"
         },
         {
@@ -2119,6 +2600,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Musalla located 150 meters from the Marrickville train station. Open for 5 daily prayers (except Jummah)</p>"
         },
         {
@@ -2143,6 +2628,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Jummah starts <span>1:00pm</span></p>"
         },
         {
@@ -2167,6 +2656,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p><span>Entry via Beauchamp Road - use White door next to garage shutter.</span></p>"
         },
         {
@@ -2191,6 +2684,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Khutbha starts at 1:15pm. Khutbha in arabic and englishOpen for all 5 daily prayers. Located off Maitland Road. 1km walk to Mayfield train station</p>"
         },
         {
@@ -2215,6 +2712,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Khutbah starts at 1:00pm and salat starts at 1:40pm. Located near the mechanic and car yard. Operated by the Newcastle Muslim Association. For most up to date information please call. Mosque close to Elermore Vale</p>\n<p><span>The Islamic Centre of Newcastle provides a school of religious learning for adults and children, and is also a fully-fledged Masjid or place of Islamic worship, Alhamdulilah. The Islamic Centre of Newcastle is located at 3-5 Victoria Street Mayfield and can be contacted on (02) 49608696.</span></p>"
         },
         {
@@ -2239,6 +2740,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Jummah prayer 1:15pm</p>"
         },
         {
@@ -2263,6 +2768,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Jummah is directly after the normal Azan time, all year round. Khutbah is in Arabic and English. Strictly NOT open for daily 5 prayers. Only Friday Prayers are held. Air-conditioned Hall. Near Merrylands Shopping Centre. Close to Station. Miller Street Room: Take the stairs to the first floor and turn right. It's on the left. Ran by The Charitable Islamic Association of Beirut City (Jameyat Madinat Beirut Alkhaireyyah Alislameyyah)</p>"
         },
         {
@@ -2287,6 +2796,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>The Bankstown campus is situated in the suburb of Milperra in the Bankstown Local Government Area. The campus is located on the corner of Horsley Road and Bullecourt Avenue, entrance is via Bullecourt Avenue.</p>\n<p> </p>\n<p><span>Musallah inside Multi Faith Centre in Building 10, Room 10.G.10. Closed on weekends.</span></p>\n<p>Building 10.G.19 (Female). Building 10.G.20 (Male)</p>\n<p>Bullecourt avenue, Milperra, NSW 2214</p>"
         },
         {
@@ -2311,6 +2824,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Khutbha in turkish. Jummah <span>12:25pm.</span> Open for 5 daily prayers. Quick walk to Mt Druitt train station (via Mount St). Masjid located opposite Mt Druitt Hospital. </p>\n<div id=\"wpcf-field-other-facilities\" class=\"wpcf-field-wysiwyg wpcf-field-other-facilities\">\n<div class=\"wpcf-field-value wpcf-field-wysiwyg-value wpcf-field-other-facilities-value\">\n<p>Asr is prayed at Shafi’i time.</p>\n<p>Separate upstairs women’s prayer area. As for women’s toilets and wudu’ facilities, they may be locked due to safety reasons; lock can be found on top of the noticeboard located on the wall on one’s left just after the entry door.</p>\n</div>\n</div>"
         },
         {
@@ -2335,6 +2852,12 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [
+                "Street parking"
+            ],
             "Content": "<p>Khutbah Arabic and English. Minto Mosque is a multicultural Association representing South Africans, Middle Eastern, Indian Subcontenient, European. Open for all 5 daily prayers and jummah. Easy access to Leumeah train station and also Minto train station. Minto Mosque (also known as Suburban Islamic Association) is a Islam community who believe in peace and working on helping others in need. Our Motto: Belief, Good Learning, Good Deeds.</p>\n<p> </p>"
         },
         {
@@ -2359,6 +2882,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Khutbah in Arabic &amp; English Translation. Open only for jummah. Short walk from Mt Druitt train station. <span>Located in Mt Druitt Community Hall.</span> Run by The Australian Arabic Association of Western Sydney Incorporated</p>"
         },
         {
@@ -2383,6 +2910,13 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [
+                "Wudu facility",
+                "Toilets"
+            ],
             "Content": "<p>3 Sessions for Jummah</p>\n<ul><li>1st session Khutbah starts ​@12:15 pm</li>\n<li>2nd session Khutbah ​starts ​@1:00 pm</li>\n<li>3rd session Khutbah starts ​@1:40 pm</li>\n</ul><p>Daily Prayers</p>\n<ul><li>Dhuhur: 12:15 pm and 1:15 pm</li>\n</ul>"
         },
         {
@@ -2407,6 +2941,13 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [
+                "Car park ",
+                "Educational facility"
+            ],
             "Content": "<p>Khutbah Arabic and English. Starting time 1:15pm. It is located in E3A level 0. Open 9am to 10pm, Monday to Friday during term. It is locked at other times.</p>\n<p>For access out of hours, contact Security in building C1A on Macquarie Drive. Visiting Muslims may request access to the room from the Muslim Students Association. Inquire at Student Council office, Level 1, SAM building, or contact the Coordinating Chaplain. Daily dhur prayers.</p>\n<p>Free tafseer class every friday 6:15pm-7:15pm. All welcome.</p>"
         },
         {
@@ -2431,6 +2972,12 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [
+                "Toilets"
+            ],
             "Content": "<p><span>One </span><span>session only Khutbah starts ​@</span><span>1:15 pm</span></p>"
         },
         {
@@ -2455,6 +3002,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Khutbah Arabic and English. Starting time 1:15pm. Jummah prayer and only open for Dhur prayer (Monday to Friday)</p>"
         },
         {
@@ -2479,6 +3030,14 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/Uploads/hobart-mosque.jpg"
+            ],
+            "features": [
+                "Car park ",
+                "Wudu facility",
+                "Toilets"
+            ],
             "Content": "<p>Jummah starting time 1:20pm. The mosque is situated in the unmarked road that is opposite Lochner Street. Some car parking facilities available on site. Run by the Tasmanian Muslim Association Inc (T.M.A.)</p>"
         },
         {
@@ -2503,6 +3062,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p> Jummah prayer and only open for Dhur prayer (Monday to Friday)</p>\n<p>Khutbah Arabic and English. Starting time 1:15pm</p>"
         },
         {
@@ -2527,6 +3090,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>The Launceston Muslim prayer rooms are located in D Block on the ground floor of the Newnham campus. These are accessible at any time via access codes. More information is available by contacting  the Student Centre on <a href=\"tel:1300361928\">1300 361 928</a> or <a href=\"tel:+61362266111\">+61 3 6226 6111</a>.</p>"
         },
         {
@@ -2551,6 +3118,12 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [
+                "Street parking"
+            ],
             "Content": "<p>Parramatta Town Hall (Church Street Musalah) venue no longer opened due to the opening of the masjid. Now open for 5 daily prayers. 5 minute walk from Parramatta train station (via Darcy Street &amp; Church Street). Parramatta Town Hall (Church Street Musalah) venue (weekdays Duhur) no longer opened due to the opening of the masjid</p>"
         },
         {
@@ -2562,7 +3135,7 @@
             "Address": "Victoria Road",
             "Suburb": "Rydalmere",
             "State": "NSW",
-            "Postcode": " 211",
+            "Postcode": "2116",
             "Latitude": "-33.81206",
             "Longitude": "151.04013",
             "Phone": null,
@@ -2575,6 +3148,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Short walk from Rydalmere train station. Close muslim prayer room to Dundas, Telopea, Rosehill, Camellia, Oatlands.</p>\n<p>Not known whether jummah is held</p>"
         },
         {
@@ -2599,7 +3176,11 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
-            "Content": null
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
+            "Content": "Khutbah Arabic and Bosnian and English. Open for 5 daily prayers"
         },
         {
             "id": "118",
@@ -2623,7 +3204,11 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
-            "Content": null
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
+            "Content": "Open for 5 daily prayers"
         },
         {
             "id": "119",
@@ -2647,6 +3232,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Jummah starting time 1pm.separate prayer rooms for brothers and sisters located inside TUU building in the foyer opposite to university doctors. open between 9am and 6pm Monday to Friday.</p>"
         },
         {
@@ -2671,6 +3260,12 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [
+                "Car park "
+            ],
             "Content": "<p>The Islamic Information Centre of South Australia (IICSA) is a not-for-profit organisation that provides a range of services to the community South Australian such as public lectures, seminars, general public and government sponsored events such as festivals, Arabic language &amp; Islamic School services, Youth Camps, New Muslim courses, and also a Summer Holidays Youth School with a mix of learning, physical activities and day trips.</p>"
         },
         {
@@ -2695,6 +3290,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/Uploads/gilbert-st-adelaide.jpg"
+            ],
+            "features": [],
             "Content": "<p>Adelaide Mosque Islamic Society of SA</p>\n<p>The mosque street (Little Gilbert Street) can be accessed via Gilbert Street or Sturt Street</p>\n<p><span>Women’s prayer facilities available.</span></p>\n<p>Bus 218- Stop X1</p>"
         },
         {
@@ -2719,6 +3318,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Mosque entrance is from Audley Street<br>Bus 230, 232 Stop No. 28</p>"
         },
         {
@@ -2743,6 +3346,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Mosque is located on Hogarth Road (and directly opposite Trimmer Road junction)</p>\n<p>Bus 224- Stop No.56A </p>\n<p>Bus T500, Stop No. 56</p>\n<p>Bus 400, 402B ,400B, Stop 56B</p>"
         },
         {
@@ -2767,6 +3374,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Strictly no jummah Multi faith prayer room. Check official website for exact location</p>"
         },
         {
@@ -2791,6 +3402,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Open for 5 Daily Prayers and Jummah 1:30pm</p>\n<p> </p>\n<p><span>Note: This is a private property and some pharmacist living in that house.</span><br><span>People traveling to Coober Pedy that want to staying over night or any further stay other than prayers times in that prayer room is strictly not permitted.</span></p>"
         },
         {
@@ -2815,6 +3430,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Masjid Omar Bin Al-Khattab is located at the corner of Marion Road and Condada Avenue<br>Bus M44 - Stop No. 18 <br>Bus 248 - Stop No. 21</p>"
         },
         {
@@ -2839,6 +3458,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>ISSA possesses, directly controls and is financially responsible for this Islamic Institutions</p>\n<p>Mosque is located at the corner of Wandana Street and Karratta Street<br>Bus 506 – Stop No. 33</p>"
         },
         {
@@ -2863,6 +3486,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>ISSA possesses, directly controls and is financially responsible for this Islamic Institutions</p>\n<p>Mosque located on Old Swanport Road (and close to the Sir John Cowan Avenue junction)</p>"
         },
         {
@@ -2887,6 +3514,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>1pm-2pm: Friday, Jumma salat. Just around from the corner of Old Port Road and Frederick Road, Port Adelaide</p>"
         },
         {
@@ -2911,6 +3542,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>The mosque street (Fourteenth Street) can be accessed via Cowra Street or Thurk Street</p>"
         },
         {
@@ -2935,6 +3570,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Mosque located on Morris Crescent (off Jenkins Avenue)</p>"
         },
         {
@@ -2959,6 +3598,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Adelaide Turkish &amp; Islamic Cultural Centre Inc.</p>\n<ul><li class=\"first\">Religious services</li>\n<li>Sunday school for children</li>\n<li>Family and youth activities</li>\n<li>Services and assistance for elderly people, new community members, new arrivals to Australia, people in need of financial help</li>\n<li class=\"last\">Soccer team</li>\n</ul>"
         },
         {
@@ -2983,6 +3626,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Friday prayers start at 1.30pm. Please contact the centre to find out more information<br>Bus 225, 226, 228 - Stop No. 25</p>"
         },
         {
@@ -3007,6 +3654,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>The musalla is located on Level 2 (Playford Building). Room P2-55A: Male. Room P2-22: Female</p>\n<p>Playford Building, Level 2, Corner of Frome Road and North Terrace, Adelaide, SA 5000</p>"
         },
         {
@@ -3031,6 +3682,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>The musalla is located on Level 2 (Sir George Kingston Building). Rooms GK-25/26 (Ground floor, first rooms on right)</p>\n<p>Sir George Kingston Building, Level 2, George Street, Adelaide, SA 5000</p>"
         },
         {
@@ -3055,6 +3710,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Muslim prayer room is located inside a Church boundary - a separate room</p>"
         },
         {
@@ -3079,6 +3738,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Separate prayer rooms for male and female Islamic students are available at the University on Level 6 of the Union Building</p>"
         },
         {
@@ -3103,6 +3766,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p><span>Musallah is located Block E (Rooms 107 &amp; 108)</span></p>\n<p>Rooms 107 &amp; 108, Block E, 27 Lorne Avenue, Magill, SA 5072</p>"
         },
         {
@@ -3127,6 +3794,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p><span>Musallah is located Level 2 (Building A)</span></p>\n<p>Level 2, Building A, Cnr of Mawson Lakes Boulevard &amp; Main St, Mawson Lakes, SA 5095</p>"
         },
         {
@@ -3151,6 +3822,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Strictly prayer room only</p>\n<p>Room 503, 5th Floor, Samuel Way Building - 72 King William Rd, North Adelaide. SA 5006</p>"
         },
         {
@@ -3175,6 +3850,13 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/Uploads/al-taqwa.jpg"
+            ],
+            "features": [
+                "Street parking",
+                "Educational facility"
+            ],
             "Content": "<p><span>he A</span><strong> </strong><span>l-Taqwa Masjid is achitechurally designed with a mezzanine floor for the ladies.  The Masjid was the first in Victoria to be built with 100% community donations costing approximately $4.5m.  The building can accommodate up to 1,000 people.  Offering various lectures throughout the year with our own Imam as well as those visiting from around the globe.</span></p>\n<p>The Masjid offers the community the following services.</p>\n<p><span>- Cold room for the deceased including Ghusul area and all the Jenazah/burial preparations</span><br><span>- Classes including Islamic, Quran, Tajweed, Hadith and Tawheed</span><br><span>- Women's group activities</span><br><span>- Lectures</span><br><span>- Counselling</span><br><span>- Community Workshops</span><br>- Youth Programs<br>- Arabic Classes</p>\n<p> </p>"
         },
         {
@@ -3199,6 +3881,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Run by the Alice Springs Islamic Society. Known as Alice Springs Afghan Mosque. Located off Larapinta Drive (Highway #6)</p>"
         },
         {
@@ -3223,6 +3909,12 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [
+                "Wudu facility"
+            ],
             "Content": "<p>It is located on the ground floor around the back of the Igloo. The exact location is N1 G138. There is an Islamic Society of Victoria poster on the door with the prayer times.</p>\n<p>Women's area available behind curtain</p>"
         },
         {
@@ -3247,6 +3939,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>no other info</p>"
         },
         {
@@ -3271,6 +3967,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Ararat Islamic Centre is located next to the Ararat Information Centre and Ararat Railway Station on Western Highway (High Street). Please feel free to use the centre while you are traveling. If required, ask assistance from the information centre. Prayer facilities with separate prayer rooms for male &amp; female</p>"
         },
         {
@@ -3295,6 +3995,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Open for daily prayer and Jummah 1:30PM</p>"
         },
         {
@@ -3319,6 +4023,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p><span>Small room in an Abattoir.</span></p>"
         },
         {
@@ -3343,6 +4051,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Maghrib &amp; Esha only</p>"
         },
         {
@@ -3367,6 +4079,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Open for 5 daily prayers. Walking distance to Ardeer train station.</p>\n<p><span>12.30pm or 1.30pm depending on daylight savings.</span></p>"
         },
         {
@@ -3391,6 +4107,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Mosque located on Old Swanport Road (and close to the Sir John Cowan Avenue junction)&lt;</p>"
         },
         {
@@ -3415,6 +4135,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Corner of Avalon Road &amp; Cozens Road. Check the above listed website for more up-to-date details</p>"
         },
         {
@@ -3439,6 +4163,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Masjid Omar Bin Al-Khattab is located at the corner of Marion Road and Condada Avenue<br>Bus M44 - Stop No. 18 <br>Bus 248 - Stop No. 21</p>"
         },
         {
@@ -3463,6 +4191,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Mosque located on Morris Crescent (off Jenkins Avenue)</p>"
         },
         {
@@ -3487,6 +4219,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Corner of Serpentine Road and Eleanor Street</p>\n<p> </p>"
         },
         {
@@ -3511,6 +4247,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p><span> Open for 5 daily prayers &amp; jummah held onsite. 3km from Geraldton train station. 430km north of Perth</span></p>"
         },
         {
@@ -3535,6 +4275,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Open for 5 daily prayer and Jummah start 1:00PM</p>"
         },
         {
@@ -3559,6 +4303,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Open for five daily prayers including Jummah<br>Run by Dawaah Association of WA (DAWA) Musallah</p>"
         },
         {
@@ -3583,6 +4331,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Five times Prayers are performed and Jummah (Friday Prayers)</p>"
         },
         {
@@ -3607,6 +4359,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Khutbha starts at 1:15pm. Open for 5 daily prayers at University of Western Australia. Located at Eastern side Winthrop Hall at UWA. Open. If more details required contact br.Salim (08) 9380 3838</p>"
         },
         {
@@ -3631,6 +4387,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Near Canning River and close to Francis Street</p>"
         },
         {
@@ -3655,6 +4415,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Open for 5 tile prayer and Jummah starts 1:00PM</p>"
         },
         {
@@ -3679,6 +4443,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Need more info</p>"
         },
         {
@@ -3703,6 +4471,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Old address Lot 433 Boyare Avenue, Mirrabooka, WA 6061</p>\n<p> </p>"
         },
         {
@@ -3727,6 +4499,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Need more info</p>"
         },
         {
@@ -3751,6 +4527,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Need more info</p>"
         },
         {
@@ -3775,6 +4555,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p><span>Alhamdulillah Masjid is ready and regular five times prayers and Jummah prayer has been started since 24th May 2015. Jummah </span></p>\n<p><strong>Parking:</strong> 13 cars can be parked within the premises of the property and many more can be parked on the road.</p>\n<p><strong>Area:</strong> The property is situated on more than 1200 square meters of land. </p>\n<p><strong>Prayer Hall Capacity: </strong>More than 150 Muslims can pray at a time.</p>\n<p><strong>Distance:</strong> Five minutes’ drive to Ballarat CBD. </p>"
         },
         {
@@ -3799,6 +4583,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p><span>Geology Building, East Terrace, Mount Helen, VIC 3350</span></p>\n<div dir=\"ltr\">Juma' Prayer time (with DST): 1:30pm</div>\n<div dir=\"ltr\">Juma' Prayer time (without DST): 12:30pm</div>\n<p><a href=\"mosque/ballarat-elsworth-street-masjid/\">ballarat elsworth street masjid</a></p>"
         },
         {
@@ -3823,6 +4611,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p><span>Muslim prayer room is in the Education &amp; Humanities Building (room: EH1.009) and Friday prayer is held at the Worship Centre.</span></p>"
         },
         {
@@ -3847,6 +4639,12 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [
+                "Wudu facility"
+            ],
             "Content": "<p>Wudu facilities available.</p>\n<p>Sister’s prayer area available.</p>\n<p>Open for 5 daily prayer and Jummah 1:15 pm</p>"
         },
         {
@@ -3871,6 +4669,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Sister’s prayer area available.</p>\n<p>Daily programs held at the Musallah, before and after prayers.</p>\n<p>Other Lessons and Classes Madrasah for Kids – Mon,Wed,Fri (4.15-5.45)</p>\n<p>Convert class – Mon (after Maghrib) Sat (11am)</p>\n<p>Marriage course – Wed (7.00-9.00)</p>\n<p>Teenage class – Sat (1.00-3.00)</p>\n<p>Ladies class – (contact sister Naeema on 0402 603 845)</p>\n<p>Mens class – Mon, Wed, Fri after Fajr</p>\n<p>Information sessions for non-Muslims Aalim course – Mon-Fri (8.30-1.00)</p>"
         },
         {
@@ -3895,6 +4697,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Need info</p>"
         },
         {
@@ -3919,6 +4725,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Open for 5 Daily Prayers</p>"
         },
         {
@@ -3943,6 +4753,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Open for 5 daily prayers</p>"
         },
         {
@@ -3967,6 +4781,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Open for 5 daily prayers (please confirm). Short walk to Jewell train station</p>"
         },
         {
@@ -3991,6 +4809,14 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [
+                "Car park ",
+                "Street parking",
+                "Wudu facility"
+            ],
             "Content": "<p>Wudu facilities available.</p>\n<p>Women’s area available.<br> Tafseer classes regularly, Quran recitation classes &amp; support for new reverts available.</p>\n<p>Located in the vicinity of Cairns Central train station. Located near Grover Street. For any inquiries please contact Abdul Aziz Mohammed on (07) 4041 3572</p>"
         },
         {
@@ -4015,6 +4841,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>pen for 5 daily prayers. Mareeba Albanian-Australian Muslim Society. Walking distance to Mareeba train station</p>"
         },
         {
@@ -4039,6 +4869,15 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [
+                "Car park ",
+                "Street parking",
+                "Wudu facility",
+                "Toilets"
+            ],
             "Content": "<p>Open for 5 time prayer daily and Friday Jummah prayer 2 session 1:15PM and 2:15PM</p>\n<p>Women’s area available.</p>\n<p>Monday after Isha Hanafi Fiqh class, Sunday morning Quran class</p>"
         },
         {
@@ -4063,6 +4902,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Jummah starts at 12:30pm.</p>\n<p>Jummah Salaah and Madrassa will now be held at: Millwell Road Community Centre 11A Millwell Road East Maroochydoore.</p>\n<p>Madrassa starts at 10:00am Sunday.</p>\n<p>For more information please contact br. Benjamin 0407 875 960.</p>\n<p>Above place is not opened for 5 daily prayers. 98A Duporth Avenue is not longer functional</p>"
         },
         {
@@ -4087,6 +4930,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Please attend Nathan Campus jummah (Multi Faith Centre N35)Located International building. Another Multi Faith Centre is being built at the Mount Gravatt which will InshaAllah cater for a separate praying and wudhu areas for sisters and brothers.</p>"
         },
         {
@@ -4111,6 +4958,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Open for 5 daily prayers. Located at the corner of Ross River Road and West Street</p>"
         },
         {
@@ -4135,6 +4986,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Jumma Only Located at Multi Faith Centre - Building</p>"
         },
         {
@@ -4159,6 +5014,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Possibly a Multi Faith Prayer Room</p>"
         },
         {
@@ -4183,6 +5042,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Open for 5 daily prayers. Quick walk to Darra train station &amp; Oxley train station</p>"
         },
         {
@@ -4207,6 +5070,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": null
         },
         {
@@ -4231,6 +5098,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": null
         },
         {
@@ -4255,6 +5126,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Next to Al-Hidayah Islamic School) for Jummah/Friday Prayers Only</p>"
         },
         {
@@ -4279,6 +5154,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Jummah 1:30PM</p>"
         },
         {
@@ -4303,6 +5182,10 @@
             "JummahAddress": null,
             "JummahLatitude": "0.00000",
             "JummahLongitude": "0.00000",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [],
             "Content": "<p>Open for 5 daily prayer. Jummah start at 1:15PM</p>\n<p>Women's prayer facilities available.</p>"
         },
         {
@@ -4327,7 +5210,14 @@
             "JummahAddress": "6 Lawson St, Southport, qld",
             "JummahLatitude": "-27.97071",
             "JummahLongitude": "153.41356",
+            "gallery": [
+                "/assets/img/no-img-found.jpg"
+            ],
+            "features": [
+                "Car park ",
+                "Street parking",
+                "Marriage services"
+            ],
             "Content": "<p>GCYC is a non for profit, community based organization, which caters to the fast growing multi-cultural community on the Gold Coast, we are an out-reach centre concentrating on the youth, giving them a place where they can safely benefit and relax, offering homeless runs, providing our homeless with the mere basic needs, canned foods, blankets, our main aim is to serve the needs of the local community. To bridge the Gap and present Islam for what it realy is, Compassion, Spirituality and Peace. A change today towards the positive and better tomorrow.</p>\n<p>We plan to have an operational youth centre, in the central Gold Coast area, from which we would offer the youth a place where they feel welcome, where we could offer lessons, offer a place for people to come to pray and relax.</p>\n<p>These services include:</p>\n<ul><li>Marriage Counselling</li>\n<li>People &amp; Relationships</li>\n<li>Health &amp; Wellbeing</li>\n<li>Trauma, Drug or Alcohol abuse and depression</li>\n<li>Spiritual guidance</li>\n</ul><p>All are welcome to attend and experience the serenity during our Friday prayers and the Motivational Talks Wednesday Nights</p>\n<p>1:10pm Jumuah Salaah</p>"
         }
     ]
-}

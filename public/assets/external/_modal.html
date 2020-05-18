@@ -6,59 +6,29 @@
 <body>
 
 <div class="modal-window fade_in">
-    <div class="modal-wrapper"><h2>Steak House Restaurant</h2>
-        <figure>63 Birch Street</figure>
-        <div class="rating" data-rating="4"></div>
+    <div class="modal-wrapper"><h2>{{title}}</h2>
+        <figure>{{address}}, {{suburb}}, {{state}}</figure>
         <div class="modal-body">
             <div class="gallery">
                 <div class="image">
-                    <div class="price">$2500</div>
-                    <div class="type"><i><img src="/assets/icons/restaurants-bars/restaurants/restaurant.png" alt=""></i><span>Apartment</span></div>
+                    <div class="type"><i><img src="/assets/icons/tourism/cult-religion/mosquee.png" alt=""></i><span>{{category}}</span></div>
                     <div class="owl-carousel gallery">
-                        <img src="/assets/img/items/1.jpg">
-                        <img src="/assets/img/items/5.jpg">
-                        <img src="/assets/img/items/4.jpg">
+                        {{image}}
                     </div>
                 </div>
                 <div class="features"><h3>Features</h3>
                     <ul class="bullets">
-                        <li>Free Parking</li>
-                        <li>Cards Accepted</li>
-                        <li>Wi-Fi</li>
-                        <li>Air Condition</li>
-                        <li>Reservations</li>
-                        <li>Teambuildings</li>
-                        <li>Places to seat</li>
+                        {{features}}
                     </ul>
                 </div>
             </div>
             <div class="modal-content">
                 <section><h3>Description</h3>
                     <p>
-                        Curabitur odio nibh, luctus non pulvinar a, ultricies ac diam. Donec neque
-                        massa, viverra interdum eros ut, imperdiet pellentesque mauris. Proin sit amet scelerisque
-                        risus. Donec semper semper erat ut mollis. Curabitur suscipit, justo eu dignissim lacinia, ante
-                        sapien pharetra duin consectetur eros augue sed ex. Donec a odio rutrum, hendrerit sapien vitae,
-                        euismod arcu.
+                        {{content}}
                     </p>
                 </section>
-                <section><h3>Overview</h3>
-                    <dl>
-                        <dt>Bedrooms</dt>
-                        <dd>2</dd>
-                        <dt>Bedrooms</dt>
-                        <dd>2</dd>
-                        <dt>Area</dt>
-                        <dd>240</dd>
-                        <dt>Garages</dt>
-                        <dd>1</dd>
-                    </dl>
-                </section>
-                <section><h3>Last Review</h3>
-                    <div class="rating" data-rating="5"></div>
-                    <p>Curabitur odio nibh, luctus non pulvinar a, ultricies ac diam. Donec neque massa, viverra interdum eros ut, imperdiet</p>
-                </section>
-                <a href="item-detail.html" class="btn btn-default btn-large">Show Detail</a></div>
+                <a href="{{url}}" class="btn btn-default btn-large">Show Detail</a></div>
         </div>
         <div class="modal-close"><img src="/assets/img/close.png"></div>
     </div>
@@ -83,6 +53,7 @@
             $('.modal-window').remove();
         }, 300);
     });
+    
 </script>
 
 <!--[if lte IE 9]>

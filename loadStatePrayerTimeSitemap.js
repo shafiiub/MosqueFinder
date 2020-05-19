@@ -15,7 +15,7 @@ const rTemplate1 = './_templates/state-listing.html';
 
 var mTemplate ='',lTemplate ='';
 var siteMapTemplate= '<?xml version="1.0" encoding="UTF-8"?>\n'+
-                     '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">\n'
+                     '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
                      ;
 var nswSitemap='', vicSitemap='', qldSitemap='', ntSitemap='',saSitemap='',waSitemap='', actSitemap='', tasSitemap='';
 var nswList='', vicList='', qldList='', ntList='',saList='',waList='', actList='', tasList='';
@@ -138,33 +138,33 @@ console.log("\n==========START loadStatePrayerTimeSitemap.js==============\n");
                         console.log ('save data to file')
                     })*/
                     if(/nsw/ig.test(data[id].State)){
-                     nswSitemap = nswSitemap + "<url><loc>https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-')+"</loc></url>\n";
+                     nswSitemap = nswSitemap + "<url><loc>https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-')+"</loc><changefreq>weekly</changefreq></url>\n";
                      nswList = nswList + "<li><a href='https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-') +"'>postcode: "+data[id].Postcode +' - Suburb: '+data[id].Suburb+"</a></li>"
                     }else if(/qld/ig.test(data[id].State)){
-                      qldSitemap = qldSitemap + "<url><loc>https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-')+"</loc></url>\n";
+                      qldSitemap = qldSitemap + "<url><loc>https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-')+"</loc><changefreq>weekly</changefreq></url>\n";
                       qldList = qldList + "<li><a href='https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-') +"'>postcode: "+data[id].Postcode +' - Suburb: '+data[id].Suburb+"</a></li>"
                     }else if(/vic/ig.test(data[id].State)){
-                      vicSitemap = vicSitemap + "<url><loc>https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-')+"</loc></url>\n";
+                      vicSitemap = vicSitemap + "<url><loc>https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-')+"</loc><changefreq>weekly</changefreq></url>\n";
                       vicList = vicList + "<li><a href='https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-') +"'>postcode: "+data[id].Postcode +' - Suburb: '+data[id].Suburb+"</a></li>"
                     }else if(/tas/ig.test(data[id].State)){
-                      tasSitemap = tasSitemap + "<url><loc>https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-')+"</loc></url>\n";
+                      tasSitemap = tasSitemap + "<url><loc>https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-')+"</loc><changefreq>weekly</changefreq></url>\n";
                       tasList = tasList + "<li><a href='https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-') +"'>postcode: "+data[id].Postcode +' - Suburb: '+data[id].Suburb+"</a></li>"
                     }else if(/nt/ig.test(data[id].State)){
-                      ntSitemap = ntSitemap + "<url><loc>https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-')+"</loc></url>\n";
+                      ntSitemap = ntSitemap + "<url><loc>https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-')+"</loc><changefreq>weekly</changefreq></url>\n";
                       ntList = ntList + "<li><a href='https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-') +"'>postcode: "+data[id].Postcode +' - Suburb: '+data[id].Suburb+"</a></li>"
                     }else if(/wa/ig.test(data[id].State)){
-                      waSitemap = waSitemap + "<url><loc>https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-')+"</loc></url>\n";
+                      waSitemap = waSitemap + "<url><loc>https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-')+"</loc><changefreq>weekly</changefreq></url>\n";
                       waList = waList + "<li><a href='https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-') +"'>postcode: "+data[id].Postcode +' - Suburb: '+data[id].Suburb+"</a></li>"
                     }else if(/sa/ig.test(data[id].State)){
-                      saSitemap = saSitemap + "<url><loc>https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-')+"</loc></url>\n";
+                      saSitemap = saSitemap + "<url><loc>https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-')+"</loc><changefreq>weekly</changefreq></url>\n";
                       saList = saList + "<li><a href='https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-') +"'>postcode: "+data[id].Postcode +' - Suburb: '+data[id].Suburb+"</a></li>"
                     }else if(/act/ig.test(data[id].State)){
-                      actSitemap = actSitemap + "<url><loc>https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-')+"</loc></url>\n";
+                      actSitemap = actSitemap + "<url><loc>https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-')+"</loc><changefreq>weekly</changefreq></url>\n";
                       actList = actList + "<li><a href='https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-') +"'>postcode: "+data[id].Postcode +' - Suburb: '+data[id].Suburb+"</a></li>"
                     }
 
             }
-            q.push({ filename: __dirname +'/public/nsw/sitemap.xml', data:siteMapTemplate+nswSitemap }, function (err,filename) {
+            q.push({ filename: __dirname +'/public/nsw/sitemap.xml', data:siteMapTemplate+nswSitemap+'</urlset>' }, function (err,filename) {
               //console.log(filename + " write");
               if(err){
                 console.error(err)
@@ -172,7 +172,7 @@ console.log("\n==========START loadStatePrayerTimeSitemap.js==============\n");
               }
               console.log (filename + " write")
             });
-            q.push({ filename: __dirname +'/public/vic/sitemap.xml', data:siteMapTemplate+vicSitemap }, function (err,filename) {
+            q.push({ filename: __dirname +'/public/vic/sitemap.xml', data:siteMapTemplate+vicSitemap+'</urlset>' }, function (err,filename) {
               //console.log(filename + " write");
               if(err){
                 console.error(err)
@@ -180,7 +180,7 @@ console.log("\n==========START loadStatePrayerTimeSitemap.js==============\n");
               }
               console.log (filename + " write")
             });
-            q.push({ filename: __dirname +'/public/qld/sitemap.xml', data:siteMapTemplate+qldSitemap }, function (err,filename) {
+            q.push({ filename: __dirname +'/public/qld/sitemap.xml', data:siteMapTemplate+qldSitemap +'</urlset>'}, function (err,filename) {
               //console.log(filename + " write");
               if(err){
                 console.error(err)
@@ -188,7 +188,7 @@ console.log("\n==========START loadStatePrayerTimeSitemap.js==============\n");
               }
               console.log (filename + " write")
             });
-            q.push({ filename: __dirname +'/public/tas/sitemap.xml', data:siteMapTemplate+tasSitemap }, function (err,filename) {
+            q.push({ filename: __dirname +'/public/tas/sitemap.xml', data:siteMapTemplate+tasSitemap+'</urlset>' }, function (err,filename) {
               //console.log(filename + " write");
               if(err){
                 console.error(err)
@@ -196,7 +196,7 @@ console.log("\n==========START loadStatePrayerTimeSitemap.js==============\n");
               }
               console.log (filename + " write")
             });
-            q.push({ filename: __dirname +'/public/act/sitemap.xml', data:siteMapTemplate+actSitemap }, function (err,filename) {
+            q.push({ filename: __dirname +'/public/act/sitemap.xml', data:siteMapTemplate+actSitemap+'</urlset>' }, function (err,filename) {
               //console.log(filename + " write");
               if(err){
                 console.error(err)
@@ -204,7 +204,7 @@ console.log("\n==========START loadStatePrayerTimeSitemap.js==============\n");
               }
               console.log (filename + " write")
             });
-            q.push({ filename: __dirname +'/public/sa/sitemap.xml', data:siteMapTemplate+saSitemap }, function (err,filename) {
+            q.push({ filename: __dirname +'/public/sa/sitemap.xml', data:siteMapTemplate+saSitemap+'</urlset>' }, function (err,filename) {
               //console.log(filename + " write");
               if(err){
                 console.error(err)
@@ -212,7 +212,7 @@ console.log("\n==========START loadStatePrayerTimeSitemap.js==============\n");
               }
               console.log (filename + " write")
             });
-            q.push({ filename: __dirname +'/public/wa/sitemap.xml', data:siteMapTemplate+waSitemap }, function (err,filename) {
+            q.push({ filename: __dirname +'/public/wa/sitemap.xml', data:siteMapTemplate+waSitemap+'</urlset>' }, function (err,filename) {
               //console.log(filename + " write");
               if(err){
                 console.error(err)
@@ -220,7 +220,7 @@ console.log("\n==========START loadStatePrayerTimeSitemap.js==============\n");
               }
               console.log (filename + " write")
             });
-            q.push({ filename: __dirname +'/public/nt/sitemap.xml', data:siteMapTemplate+ntSitemap }, function (err,filename) {
+            q.push({ filename: __dirname +'/public/nt/sitemap.xml', data:siteMapTemplate+ntSitemap+'</urlset>' }, function (err,filename) {
               //console.log(filename + " write");
               if(err){
                 console.error(err)

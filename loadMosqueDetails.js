@@ -12,7 +12,16 @@ const async = require("async")
 const rPath = './_data/mosque_json.json';
 const rTemplate = './_templates/mosque-detail.html';
 var siteMapTemplate= '<?xml version="1.0" encoding="UTF-8"?>\n'+
-                     '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">\n'
+                     '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+
+                     '<url><loc>https://mosque-finder.com.au</loc><changefreq>weekly</changefreq></url>\n'+
+                     '<url><loc>https://mosque-finder.com.au/nsw/postcode.html</loc><changefreq>weekly</changefreq></url>\n'+
+                     '<url><loc>https://mosque-finder.com.au/vic/postcode.html</loc><changefreq>weekly</changefreq></url>\n'+
+                     '<url><loc>https://mosque-finder.com.au/qld/postcode.html</loc><changefreq>weekly</changefreq></url>\n'+
+                     '<url><loc>https://mosque-finder.com.au/act/postcode.html</loc><changefreq>weekly</changefreq></url>\n'+
+                     '<url><loc>https://mosque-finder.com.au/tas/postcode.html</loc><changefreq>weekly</changefreq></url>\n'+
+                     '<url><loc>https://mosque-finder.com.au/sa/postcode.html</loc><changefreq>weekly</changefreq></url>\n'+
+                     '<url><loc>https://mosque-finder.com.au/wa/postcode.html</loc><changefreq>weekly</changefreq></url>\n'+
+                     '<url><loc>https://mosque-finder.com.au/nt/postcode.html</loc><changefreq>weekly</changefreq></url>\n'
                      ;
 
 var mTemplate ='';
@@ -178,12 +187,12 @@ try {
               }
               //console.log (filename + " write")
             });
-            Sitemap = Sitemap + "<url><loc>https://mosque-finder.com.au/mosque/"+data[id].URLSegment+"</loc></url>\n";
+            Sitemap = Sitemap + "<url><loc>https://mosque-finder.com.au/mosque/"+data[id].URLSegment+"</loc><changefreq>weekly</changefreq></url>\n";
                
       
     }
 
-    q.push({ filename: __dirname +'/public/mosque/sitemap.xml', data:siteMapTemplate+Sitemap }, function (err,filename) {
+    q.push({ filename: __dirname +'/public/mosque/sitemap.xml', data:siteMapTemplate+Sitemap+'</urlset>' }, function (err,filename) {
       //console.log(filename + " write");
       if(err){
         console.error(err)

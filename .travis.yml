@@ -25,7 +25,7 @@ script:
   - aws s3 sync public/nt s3://mosque-finder.com.au/nt --quiet --acl public-read --delete
   - aws s3 sync public/act s3://mosque-finder.com.au/act --quiet --acl public-read --delete
   - aws s3 sync public/assets s3://mosque-finder.com.au/assets --quiet --acl public-read --delete
- # - aws cloudfront create-invalidation --distribution-id E3RII6TTSRX6A1 --paths '/*'
+  - aws cloudfront create-invalidation --distribution-id E2GHX5GY0JOGQD --paths '/*'
 branches:
   only:
   - master

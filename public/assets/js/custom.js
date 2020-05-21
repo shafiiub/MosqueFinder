@@ -587,7 +587,7 @@ function quickView(id, json){
             .replace(/{{content}}/g, json.data[id].description)
             .replace(/{{url}}/g, json.data[id].url)
             .replace(/{{suburb}}/g, json.data[id].Suburb)
-            .replace(/{{state}}/g, json.data[id].State)
+            .replace(/{{state}}/g, json.data[id].State.toLowerCase())
             .replace(/{{category}}/g, json.data[id].category)
             .replace(/{{features}}/g,features)
             .replace(/{{image}}/g,gallery)

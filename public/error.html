@@ -14,14 +14,19 @@
     <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="/assets/css/bootstrap-select.min.css" type="text/css">
     <link rel="stylesheet" href="/assets/css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="/assets/css/jquery.mCustomScrollbar.css" type="text/css">
     <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
     <link rel="stylesheet" href="/assets/css/user.style.css" type="text/css">
 
-    <title>{{title}}</title>
-
+    <title>error - Australian Mosque Finder</title>
+    <script>
+        if(!/index\.html$/ig.test(location.pathname)){
+            location.href = (location.pathname+'/index.html').replace('//','/');
+        }
+    </script>
 </head>
 
-<body onunload="" class="page-subpage page-listing-grid navigation-off-canvas" id="page-top">
+<body onunload="" class="map-fullscreen page-homepage navigation-off-canvas" id="page-top">
 
 <!-- Outer Wrapper-->
 <div id="outer-wrapper">
@@ -45,7 +50,7 @@
                             <div class="icon">
                                 <i class="fa fa-plus"></i>
                             </div>
-                        </a-->
+                        </a>-->
                         <div class="toggle-navigation">
                             <div class="icon">
                                 <div class="line"></div>
@@ -66,73 +71,54 @@
                 <div class="main-navigation navigation-off-canvas"></div>
             </nav>
             <!--end Off Canvas Navigation-->
-
-            <!--Sub Header-->
-            <section class="sub-header">
-                <div class="search-bar horizontal collapse" id="redefine-search-form"></div>
-                <!-- /.search-bar -->
-                <div class="breadcrumb-wrapper">
-                    <div class="container">
-                        <!--div class="redefine-search">
-                            <a href="#redefine-search-form" class="inner" data-toggle="collapse" aria-expanded="false" aria-controls="redefine-search-form">
-                                <span class="icon"></span>
-                                <span>Redefine Search</span>
-                            </a>
-                        </div-->
-                        <ol class="breadcrumb">
-                            <li><a href="index.html"><i class="fa fa-home"></i></a></li>
-                            <li class="active">{{state}}</li>
-                        </ol>
-                        <!-- /.breadcrumb-->
-                    </div>
-                    <!-- /.container-->
+            
+           <!--Sub Header-->
+           <section class="sub-header">
+            <div class="search-bar horizontal collapse" id="redefine-search-form"></div>
+            <!-- /.search-bar -->
+            <div class="breadcrumb-wrapper">
+                <div class="container">
+                    <!--div class="redefine-search">
+                        <a href="#redefine-search-form" class="inner" data-toggle="collapse" aria-expanded="false" aria-controls="redefine-search-form">
+                            <span class="icon"></span>
+                            <span>Redefine Search</span>
+                        </a>
+                    </div-->
+                    <ol class="breadcrumb">
+                        <li><a href="/index.html"><i class="fa fa-home"></i></a></li>
+                        <!--li><a href="/{{state}}">{{state}}</a></li>
+                        <li class="active">{{suburb}}</li>-->
+                    </ol>
+                    <!-- /.breadcrumb-->
                 </div>
-                <!-- /.breadcrumb-wrapper-->
-            </section>
-            <!--end Sub Header-->
+                <!-- /.container-->
+            </div>
+            <!-- /.breadcrumb-wrapper-->
+        </section>
+        <!--end Sub Header-->
 
-            <!--Page Content-->
-            <div id="page-content">
+             <!--Page Content-->
+             <div id="page-content">
                 <section class="container">
-                    <div class="">
-                        <!--Content-->
-                        <div class="">
-                            <header>
-                                <h1 class="page-title">{{title}}</h1>
-                            </header>
-        
-
-                            <!--Listing Grid-->
-                            <section class="block equal-height">
-                                <div class="row">
-
-                                    {{statelist}}
-                                    
-                                </div>
-                                <!--/.row-->
-                            </section>
-                            <!--end Listing Grid-->
-                            <!--Pagination-->
-                            <!--nav>
-                                <ul class="pagination pull-right">
-                                    <li class="active"><a href="#">1</a></li>
-                                    <li><a href="#">2</a></li>
-                                    <li><a href="#">3</a></li>
-                                    <li><a href="#" class="previous"><i class="fa fa-angle-left"></i></a></li>
-                                    <li><a href="#" class="next"><i class="fa fa-angle-right"></i></a></li>
-                                </ul>
-                            </nav-->
-                            <!--end Pagination-->
+                    <header>
+                        <h1 class="page-title">404</h1>
+                    </header>
+                    <div class="block">
+                        <div id="title-404">
+                            <aside>404
+                                <img src="/assets/img/scissors.png" alt="">
+                            </aside>
+                            <h2>Page Not Found</h2>
+                            <p>Unfortunately the page you are looking for is not here.<br>You can go back or check these featured items:</p>
                         </div>
-
                     </div>
                 </section>
             </div>
             <!-- end Page Content-->
         </div>
         <!-- end Page Canvas-->
-         <!--Page Footer-->
-         <footer id="page-footer">
+        <!--Page Footer-->
+        <footer id="page-footer">
             <div class="inner">
                 <div class="footer-top">
                     <div class="container">
@@ -201,13 +187,10 @@
             </div>
         </footer>
         <!--end Page Footer-->
-        <!--end Page Footer-->
     </div>
     <!-- end Inner Wrapper -->
 </div>
 <!-- end Outer Wrapper-->
-
-
 <script type="text/javascript" src="/assets/js/jquery-2.1.0.min.js"></script>
 <script type="text/javascript" src="/assets/js/before.load.js"></script>
 <script type="text/javascript" src="/assets/js/jquery-migrate-1.2.1.min.js"></script>
@@ -215,7 +198,23 @@
 <script type="text/javascript" src="/assets/js/smoothscroll.js"></script>
 <script type="text/javascript" src="/assets/js/bootstrap-select.min.js"></script>
 <script type="text/javascript" src="/assets/js/jquery.hotkeys.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.nouislider.all.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script type="text/javascript" src="//maps.google.com/maps/api/js?key=AIzaSyDeJ7A1i5xM4S_JgOIXmMpFj3yQvZJqWVg&amp;libraries=places"></script>
+<script type="text/javascript" src="/assets/js/infobox.js"></script>
+<script type="text/javascript" src="/assets/js/richmarker-compiled.js"></script>
+<script type="text/javascript" src="/assets/js/markerclusterer.js"></script>
 <script type="text/javascript" src="/assets/js/custom.js"></script>
+<script type="text/javascript" src="/assets/js/maps.js"></script>
+
+
+<!--[if lte IE 9]>
+<script type="text/javascript" src="/assets/js/ie-scripts.js"></script>
+<![endif]-->
+
+<script>
+    document.getElementById("copyRight").innerHTML ='<a href="https://shafi.com.au">Shafi.com.au</a> &copy; '+ new Date().getFullYear()+', All rights reserved';
+</script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-3236602-8"></script>
 <script>

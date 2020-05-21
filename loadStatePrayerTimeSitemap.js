@@ -110,7 +110,7 @@ console.log("\n==========START loadStatePrayerTimeSitemap.js==============\n");
                     
                     html = mTemplate;
                     html = html.replace(/{{title}}/g,'Prayer time for ' + data[id].Suburb + ', '+ data[id].State+'-'+data[id].Postcode)
-                    .replace(/{{state}}/g, data[id].State)
+                    .replace(/{{state}}/g, data[id].State.toLowerCase())
                     .replace(/{{suburb}}/g, data[id].Suburb)
                     .replace(/{{postcode}}/g, data[id].Postcode)
                     .replace(/{{latitude}}/g, data[id].Latitude)
@@ -138,29 +138,29 @@ console.log("\n==========START loadStatePrayerTimeSitemap.js==============\n");
                         console.log ('save data to file')
                     })*/
                     if(/nsw/ig.test(data[id].State)){
-                     nswSitemap = nswSitemap + "<url><loc>https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-')+"</loc><changefreq>weekly</changefreq></url>\n";
-                     nswList = nswList + "<li><a href='https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-') +"'>postcode: "+data[id].Postcode +' - Suburb: '+data[id].Suburb+"</a></li>"
+                     nswSitemap = nswSitemap + "<url><loc>https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-')+"/index.html</loc><changefreq>weekly</changefreq></url>\n";
+                     nswList = nswList + "<li><a href='https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-') +"/index.html'>postcode: "+data[id].Postcode +' - Suburb: '+data[id].Suburb+"</a></li>"
                     }else if(/qld/ig.test(data[id].State)){
-                      qldSitemap = qldSitemap + "<url><loc>https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-')+"</loc><changefreq>weekly</changefreq></url>\n";
-                      qldList = qldList + "<li><a href='https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-') +"'>postcode: "+data[id].Postcode +' - Suburb: '+data[id].Suburb+"</a></li>"
+                      qldSitemap = qldSitemap + "<url><loc>https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-')+"/index.html</loc><changefreq>weekly</changefreq></url>\n";
+                      qldList = qldList + "<li><a href='https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-') +"/index.html'>postcode: "+data[id].Postcode +' - Suburb: '+data[id].Suburb+"</a></li>"
                     }else if(/vic/ig.test(data[id].State)){
-                      vicSitemap = vicSitemap + "<url><loc>https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-')+"</loc><changefreq>weekly</changefreq></url>\n";
-                      vicList = vicList + "<li><a href='https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-') +"'>postcode: "+data[id].Postcode +' - Suburb: '+data[id].Suburb+"</a></li>"
+                      vicSitemap = vicSitemap + "<url><loc>https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-')+"/index.html</loc><changefreq>weekly</changefreq></url>\n";
+                      vicList = vicList + "<li><a href='https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-') +"/index.html'>postcode: "+data[id].Postcode +' - Suburb: '+data[id].Suburb+"</a></li>"
                     }else if(/tas/ig.test(data[id].State)){
-                      tasSitemap = tasSitemap + "<url><loc>https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-')+"</loc><changefreq>weekly</changefreq></url>\n";
-                      tasList = tasList + "<li><a href='https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-') +"'>postcode: "+data[id].Postcode +' - Suburb: '+data[id].Suburb+"</a></li>"
+                      tasSitemap = tasSitemap + "<url><loc>https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-')+"/index.html</loc><changefreq>weekly</changefreq></url>\n";
+                      tasList = tasList + "<li><a href='https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-') +"/index.html'>postcode: "+data[id].Postcode +' - Suburb: '+data[id].Suburb+"</a></li>"
                     }else if(/nt/ig.test(data[id].State)){
-                      ntSitemap = ntSitemap + "<url><loc>https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-')+"</loc><changefreq>weekly</changefreq></url>\n";
-                      ntList = ntList + "<li><a href='https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-') +"'>postcode: "+data[id].Postcode +' - Suburb: '+data[id].Suburb+"</a></li>"
+                      ntSitemap = ntSitemap + "<url><loc>https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-')+"/index.html</loc><changefreq>weekly</changefreq></url>\n";
+                      ntList = ntList + "<li><a href='https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-') +"/index.html'>postcode: "+data[id].Postcode +' - Suburb: '+data[id].Suburb+"</a></li>"
                     }else if(/wa/ig.test(data[id].State)){
-                      waSitemap = waSitemap + "<url><loc>https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-')+"</loc><changefreq>weekly</changefreq></url>\n";
-                      waList = waList + "<li><a href='https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-') +"'>postcode: "+data[id].Postcode +' - Suburb: '+data[id].Suburb+"</a></li>"
+                      waSitemap = waSitemap + "<url><loc>https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-')+"/index.html</loc><changefreq>weekly</changefreq></url>\n";
+                      waList = waList + "<li><a href='https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-') +"/index.html'>postcode: "+data[id].Postcode +' - Suburb: '+data[id].Suburb+"</a></li>"
                     }else if(/sa/ig.test(data[id].State)){
-                      saSitemap = saSitemap + "<url><loc>https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-')+"</loc><changefreq>weekly</changefreq></url>\n";
-                      saList = saList + "<li><a href='https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-') +"'>postcode: "+data[id].Postcode +' - Suburb: '+data[id].Suburb+"</a></li>"
+                      saSitemap = saSitemap + "<url><loc>https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-')+"/index.html</loc><changefreq>weekly</changefreq></url>\n";
+                      saList = saList + "<li><a href='https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-') +"/index.html'>postcode: "+data[id].Postcode +' - Suburb: '+data[id].Suburb+"</a></li>"
                     }else if(/act/ig.test(data[id].State)){
-                      actSitemap = actSitemap + "<url><loc>https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-')+"</loc><changefreq>weekly</changefreq></url>\n";
-                      actList = actList + "<li><a href='https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-') +"'>postcode: "+data[id].Postcode +' - Suburb: '+data[id].Suburb+"</a></li>"
+                      actSitemap = actSitemap + "<url><loc>https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-')+"/index.html</loc><changefreq>weekly</changefreq></url>\n";
+                      actList = actList + "<li><a href='https://mosque-finder.com.au/"+data[id].url.replace(/\'/ig,'-') +"/index.html'>postcode: "+data[id].Postcode +' - Suburb: '+data[id].Suburb+"</a></li>"
                     }
 
             }

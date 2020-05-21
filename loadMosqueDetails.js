@@ -154,7 +154,7 @@ try {
             }
             html = html.replace(/{{title}}/g, data[id].Title)
             .replace(/{{address}}/g, data[id].Address)
-            .replace(/{{state}}/g, data[id].State)
+            .replace(/{{state}}/g, data[id].State.toLowerCase())
             .replace(/{{suburb}}/g, data[id].Suburb)
             .replace(/{{postcode}}/g, data[id].Postcode)
             .replace(/{{latitude}}/g, data[id].Latitude)

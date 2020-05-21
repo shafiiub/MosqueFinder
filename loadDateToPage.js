@@ -80,7 +80,7 @@ console.log("START")
                     wPath = __dirname + '/public/'+data[id].url.replace(/\'/ig,'-')+'/index.html',
                     html = mTemplate;
                     html = html.replace(/{{title}}/g,'Prayer time for ' + data[id].Suburb + ', '+ data[id].State+'-'+data[id].Postcode)
-                    .replace(/{{state}}/g, data[id].State)
+                    .replace(/{{state}}/g, data[id].State.toLowerCase())
                     .replace(/{{suburb}}/g, data[id].Suburb)
                     .replace(/{{postcode}}/g, data[id].Postcode)
                     .replace(/{{latitude}}/g, data[id].Latitude)

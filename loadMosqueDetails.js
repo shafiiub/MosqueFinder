@@ -13,7 +13,7 @@ const rPath = './_data/mosque_json.json';
 const rTemplate = './_templates/mosque-detail.html';
 var siteMapTemplate= '<?xml version="1.0" encoding="UTF-8"?>\n'+
                      '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+
-                     '<url><loc>https://mosque-finder.com.au</loc><changefreq>weekly</changefreq></url>\n'+
+                     '<url><loc>https://mosque-finder.com.au/</loc><changefreq>weekly</changefreq></url>\n'+
                      '<url><loc>https://mosque-finder.com.au/nsw/postcode.html</loc><changefreq>weekly</changefreq></url>\n'+
                      '<url><loc>https://mosque-finder.com.au/vic/postcode.html</loc><changefreq>weekly</changefreq></url>\n'+
                      '<url><loc>https://mosque-finder.com.au/qld/postcode.html</loc><changefreq>weekly</changefreq></url>\n'+

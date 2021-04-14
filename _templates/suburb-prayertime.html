@@ -302,9 +302,9 @@ var yr = dt.getFullYear();
 
 function tz(state, dt){
     if(/(nsw|vic|act|tas)/ig.test(state.toLowerCase())){
-        return isDLS(dt)? 10 : 11;
+        return isDLS(dt)? 11 : 10;
     }else if(/sa/ig.test(state)){
-        return isDLS(dt)? 9.5 : 10.5;
+        return isDLS(dt)? 10.5 : 9.5;
     }else if(/qld/ig.test(state)){
         return 10;
     }else if(/nt/ig.test(state)){

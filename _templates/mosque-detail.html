@@ -431,7 +431,7 @@
             return 8;
         }
     }
-    var times = PT.getTimes(dt, [lat, lon], tz(state,dt));
+    var times = PT.getTimes(dt, [lat, lon], tz(state,dt), 0);
     //getTimes (date, coordinates [, timeZone [, dst [, timeFormat]]])
     //document.write('Sunrise = '+ times.sunrise)
     //var ptimeToday =
@@ -458,7 +458,7 @@
                 var wd =new Date((new Date()).getTime() + (i*60*60*24*1000));
                 //var wd = new Date()+(i * 24 * 60 * 60 * 1000);
                 yr = dt.getFullYear();
-                times = PT.getTimes(wd, [lat, lon], tz(state,wd));
+                times = PT.getTimes(wd, [lat, lon], tz(state,wd), 0);
                 weekly = weekly + '    <tr><td>'+wd.toString().split(yr)[0] +'</td><td>'+ times.fajr +'</td><td>'+ times.sunrise +'</td><td>'+ times.dhuhr +'</td><td>'+ times.asr +'</td><td>'+ times.maghrib +'</td><td>'+ times.isha +'</td></tr>';
             }
     

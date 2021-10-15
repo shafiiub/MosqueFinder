@@ -19,6 +19,8 @@ script:
   - aws s3 cp  public/robots.txt s3://mosque-finder.com.au --acl public-read
   - aws s3 cp  public/error.html s3://mosque-finder.com.au --acl public-read
   - aws s3 sync public/vic s3://mosque-finder.com.au/vic --quiet --acl public-read --delete
+  - aws s3 cp  public/contact.html s3://mosque-finder.com.au --acl public-read
+  - aws s3 cp  public/update.html s3://mosque-finder.com.au --acl public-read
   - aws s3 sync public/qld s3://mosque-finder.com.au/qld --quiet --acl public-read --delete
   - aws s3 sync public/tas s3://mosque-finder.com.au/tas --quiet --acl public-read --delete
   - aws s3 sync public/sa s3://mosque-finder.com.au/sa --quiet --acl public-read --delete

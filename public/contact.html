@@ -19,42 +19,6 @@
     <link rel="stylesheet" href="/assets/css/user.style.css" type="text/css">
 
     <title>Add new Location - Australian Mosque Finder</title>
-    <script>
-        if(/\/suburbs\/suburb\/08/ig.test(location.pathname)){
-            var newPath = location.pathname.replace('/suburbs/suburb/','/nt/');
-            location.href = (newPath+'/index.html').replace('//','/').toLowerCase();
-        }else if(/\/suburbs\/suburb\/7/ig.test(location.pathname)){
-            var newPath = location.pathname.replace('/suburbs/suburb/','/tas/');
-            location.href = (newPath+'/index.html').replace('//','/').toLowerCase();
-        }else if(/\/suburbs\/suburb\/6/ig.test(location.pathname)){
-            var newPath = location.pathname.replace('/suburbs/suburb/','/wa/');
-            location.href = (newPath+'/index.html').replace('//','/').toLowerCase();
-        }else if(/\/suburbs\/suburb\/5/ig.test(location.pathname)){
-            var newPath = location.pathname.replace('/suburbs/suburb/','/sa/');
-            location.href = (newPath+'/index.html').replace('//','/').toLowerCase();
-        }else if(/\/suburbs\/suburb\/4/ig.test(location.pathname)){
-            var newPath = location.pathname.replace('/suburbs/suburb/','/qld/');
-            location.href = (newPath+'/index.html').replace('//','/').toLowerCase();
-        }else if(/\/suburbs\/suburb\/3/ig.test(location.pathname)){
-            var newPath = location.pathname.replace('/suburbs/suburb/','/vic/');
-            location.href = (newPath+'/index.html').replace('//','/').toLowerCase();
-        }else if(/\/suburbs\/suburb\/2/ig.test(location.pathname)){
-            var pc = location.pathname.match(/\d{4}/ig)[0];
-            var newPath ='';
-            if ((pc >= 2600 && pc <= 2618)||(pc >= 2900 && pc <= 2920)){
-                newPath = location.pathname.replace('/suburbs/suburb/','/act/');
-            }else{
-                newPath = location.pathname.replace('/suburbs/suburb/','/nsw/');
-            }
-            location.href = (newPath+'/index.html').replace('//','/').toLowerCase();
-        }
-        if(!/index\.html$/ig.test(location.pathname)){
-            location.href = (location.pathname+'/index.html').replace('//','/').toLowerCase();
-        }
-        if(/\/index.html\/index\.html$/ig.test(location.pathname)){
-            location.href = (location.pathname).replace('//','/').replace('/index.html/index.html','/index.html').replace('/index.php','/index.html').toLowerCase();
-        }
-    </script>
 </head>
 
 <body onunload="" class="map-fullscreen page-homepage navigation-off-canvas" id="page-top">

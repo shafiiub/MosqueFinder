@@ -2,10 +2,10 @@
   "name": "mosque-finder",
   "version": "1.0.0",
   "description": "",
-  "main": "loadDateToPage.js",
+  "main": "loadDateToPage-v2.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "read": "node loadDateToPage.js"
+    "read": "node loadDateToPage-v2.js"
   },
   "keywords": [],
   "author": "",

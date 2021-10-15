@@ -8,6 +8,7 @@ before_script:
   - npm install -g async@3.2.0
   - pip install --user awscli
 script:
+  - node loadDateToPage-v2.js
   - node copyDataFiles.js
   - node loadStatePrayerTimeSitemap.js
   - node loadStateList.js

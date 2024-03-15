@@ -271,25 +271,6 @@
             ]
         },
         {
-            "id": 21,
-            "title": "Bankstown - Adnum Lane Musallah",
-            "State": "NSW",
-            "Postcode": "2200",
-            "Suburb": " Bankstown",
-            "location": "108 Adnum Lane",
-            "category": "Musalla",
-            "latitude": "-33.91689",
-            "longitude": "151.03362",
-            "url": "/mosque/bankstown-adnum-lane-musallah/",
-            "type": "Musalla",
-            "type_icon": "/assets/icons/tourism/cult-religion/mosquee.png",
-            "description": "<p>Open for all 5 daily prayers. Jummah held at a seperate location. Turn into Adnum Lane which is situated right next to 6 Fetherstone Street (walk to the end of the Adnum Lane, then turn 'left' and the musalla is located on the top of the stairs)</p>",
-            "gallery": [
-                "/assets/img/no-img-found.jpg"
-            ],
-            "features": []
-        },
-        {
             "id": 22,
             "title": "Bankstown - Daar Ibn Abbas College - Cross Street Musalla",
             "State": "NSW",
@@ -1675,25 +1656,6 @@
             "type": "Friday prayer only",
             "type_icon": "/assets/icons/tourism/cult-religion/mosquee.png",
             "description": "<p><span><span>Jummah start 1:20pm. Wudhu facilities available</span></span></p>\n<p><span>Jummah prayed at Seddon park. Parking is usually full, so park on nearby streets. Warning: Look out for yellow markings on the road and bus stop signs (no parking zones).</span></p>",
-            "gallery": [
-                "/assets/img/no-img-found.jpg"
-            ],
-            "features": []
-        },
-        {
-            "id": 88,
-            "title": "Casula - The Global Islamic Youth Centre (GIYC)",
-            "State": "NSW",
-            "Postcode": "2170",
-            "Suburb": "Casula",
-            "location": "14/493 Hume Highway",
-            "category": "Mosque",
-            "latitude": "-33.94291",
-            "longitude": "150.91096",
-            "url": "/mosque/casula-the-global-islamic-youth-centre-giyc/",
-            "type": "Mosque",
-            "type_icon": "/assets/icons/tourism/cult-religion/mosquee.png",
-            "description": "<p><span>The Global Islamic Youth Centre (GIYC) was established in July of 2000 by a handful of brothers seeking Allaah’s Pleasure by</span><span class=\"text_exposed_show\"> establishing a centre encompassing the needs of the local Islamic Community. Hence the vision was to cater for the physical, social, educational and religious needs, especially for the youth and the children, in accordance with the teachings of the Qur’aan and Sunnah and hence to gain the pleasure of the Almighty Creator.</span></p>\n<p>Open for day salat every day including Fajir salat, Wednesday night and friday night lectures. Closed Sunday.<br>Friday Jumaah Prayers khutbah is in English and it starts at 1:15pm.</p>\n<ol><li>Daily Prayers - Open everyday; Fajr, Dhuhr, Asr, Maghrib, Eshaa</li>\n<li>Jumaah Prayer - every Friday at GIYC</li>\n<li>Islamic Education - GIYC Shariah College for Brothers and Sisters. ( Qur’an, Hadeeth, Tajweed, Fiqh, Aqeedah, Arabic and Salaat / Prayer workshops )</li>\n<li>Inspirational Lectures - Islamic knowledge &amp; understanding for today’s generation</li>\n<li>Childrens Madrassah - Kindergarten right through to High School</li>\n<li>Islamic Guidance/Assistance &amp; Counselling - Qualified Islamic Scholars available at GIYC</li>\n<li>New Islamic Reverts Program – ‘Back to Basics Course.’ Guidance, follow up and assistance</li>\n<li>Welfare - Australian Zakaat Fund ( GIYC based for Australian Needy Muslims), Poor and Needy clothes drive, Food Parcels, supporting international organisations such as Human Appeal Charity and others</li>\n<li>Bookstore - Huge variety of the latest books, DVD’s, audio, accessories &amp; gifts as well as Internet Facilities</li>\n<li>Eid Prayers- Ramadan Eid Prayer and Adha Eid Prayer as well as celebrations</li>\n<li>Ramadan - Iftar, Taraweeh Prayers, Suhoor and Itikaf</li>\n</ol>",
             "gallery": [
                 "/assets/img/no-img-found.jpg"
             ],

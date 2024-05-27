@@ -1,0 +1,60 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 13.9.0 
+    commands:
+      - echo Installing Mocha...
+#       - npm install -g mocha
+      - npm install -g fs@0.0.1-security
+      - npm install -g json@^9.0.6
+      - npm install -g express@4.17.1
+      - npm install -g async@3.2.0
+      - pip install --user awscli
+  pre_build:
+    commands:
+      - echo Installing source NPM dependencies...
+      - node loadDateToPage-v2.js
+      - node copyDataFiles.js
+      - node loadStatePrayerTimeSitemap.js
+      - node loadStateList.js
+      - node loadMosqueDetails.js
+#       - npm install
+#       - npm install unit.js
+  build:
+    commands:
+      - echo Build started on `date`
+      - echo Compiling the s3 code
+#      - mocha test.js
+      - aws s3 rm s3://mosque-finder-aus --quiet --recursive
+      - aws s3 sync public/mosque s3://mosque-finder-aus/mosque --quiet --acl public-read
+      - aws s3 cp public/index.html s3://mosque-finder-aus --acl public-read
+      - aws s3 sync public/nsw s3://mosque-finder-aus/nsw --quiet --acl public-read --delete
+      - aws s3 cp  public/robots.txt s3://mosque-finder-aus --acl public-read
+      - aws s3 cp  public/error.html s3://mosque-finder-aus --acl public-read
+      - aws s3 sync public/vic s3://mosque-finder-aus/vic --quiet --acl public-read --delete
+      - aws s3 cp  public/contact.html s3://mosque-finder-aus --acl public-read
+      - aws s3 cp  public/update.html s3://mosque-finder-aus --acl public-read
+      - aws s3 sync public/qld s3://mosque-finder-aus/qld --quiet --acl public-read --delete
+      - aws s3 sync public/tas s3://mosque-finder-aus/tas --quiet --acl public-read --delete
+      - aws s3 sync public/sa s3://mosque-finder-aus/sa --quiet --acl public-read --delete
+      - aws s3 sync public/wa s3://mosque-finder-aus/wa --quiet --acl public-read --delete
+      - aws s3 sync public/nt s3://mosque-finder-aus/nt --quiet --acl public-read --delete
+      - aws s3 sync public/act s3://mosque-finder-aus/act --quiet --acl public-read --delete
+      - aws s3 sync public/assets s3://mosque-finder-aus/assets --quiet --acl public-read --delete
+  post_build:
+    commands:
+      - echo Build completed on `date`
+#      - aws cloudfront create-invalidation --distribution-id E2GHX5GY0JOGQD --paths '/*'
+# Include only the files required for your application to run.
+# Do not use recursively include artifacts from node_modules directory as it will include unnecessary packages 
+# used only for building and testing.
+# ExpressJS apps will need other artifact directories included (bin/*, public/*, routes/*, views/* etc).
+artifacts:
+  files:
+    - app.js
+    - index.html
+    - package.json
+    - node_modules/async/*
+    - node_modules/lodash/*

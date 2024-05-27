@@ -3,6 +3,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
+      python: 3.7
       nodejs: 10 
     commands:
       - echo Installing Mocha...
@@ -11,22 +12,27 @@ phases:
       - npm install -g json@^9.0.6
       - npm install -g express@4.17.1
       - npm install -g async@3.2.0
-      - pip install --user awscli
+      - npm install -g pip@0.0.1
+
   pre_build:
     commands:
       - echo Installing source NPM dependencies...
-      - node loadDateToPage-v2.js
-      - node copyDataFiles.js
-      - node loadStatePrayerTimeSitemap.js
-      - node loadStateList.js
-      - node loadMosqueDetails.js
+      - pip install --user awscli
 #       - npm install
 #       - npm install unit.js
   build:
     commands:
       - echo Build started on `date`
       - echo Compiling the s3 code
+      - node loadDateToPage-v2.js
+      - node copyDataFiles.js
+      - node loadStatePrayerTimeSitemap.js
+      - node loadStateList.js
+      - node loadMosqueDetails.js
 #      - mocha test.js
+  post_build:
+    commands:
+      - echo Build completed on `date`
       - aws s3 rm s3://mosque-finder-aus --quiet --recursive
       - aws s3 sync public/mosque s3://mosque-finder-aus/mosque --quiet --acl public-read
       - aws s3 cp public/index.html s3://mosque-finder-aus --acl public-read
@@ -43,9 +49,7 @@ phases:
       - aws s3 sync public/nt s3://mosque-finder-aus/nt --quiet --acl public-read --delete
       - aws s3 sync public/act s3://mosque-finder-aus/act --quiet --acl public-read --delete
       - aws s3 sync public/assets s3://mosque-finder-aus/assets --quiet --acl public-read --delete
-  post_build:
-    commands:
-      - echo Build completed on `date`
+
 #      - aws cloudfront create-invalidation --distribution-id E2GHX5GY0JOGQD --paths '/*'
 # Include only the files required for your application to run.
 # Do not use recursively include artifacts from node_modules directory as it will include unnecessary packages 

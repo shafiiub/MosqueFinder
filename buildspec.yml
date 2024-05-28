@@ -6,24 +6,25 @@ phases:
       python: 3.7
       nodejs: 10 
     commands:
-      - echo Installing Mocha...
+      - echo Installing fs, json, express, async, pip...
 #       - npm install -g mocha
       - npm install -g fs@0.0.1-security
       - npm install -g json@^9.0.6
       - npm install -g express@4.17.1
       - npm install -g async@3.2.0
+      - npm install -g path@^0.12.7
       - npm install -g pip@0.0.1
-
   pre_build:
     commands:
       - echo Installing source NPM dependencies...
+      - npm install async
       - pip install --user awscli
 #       - npm install
 #       - npm install unit.js
   build:
     commands:
       - echo Build started on `date`
-      - echo Compiling the s3 code
+      - echo Building the static content from JSON
       - node loadDateToPage-v2.js
       - node copyDataFiles.js
       - node loadStatePrayerTimeSitemap.js
@@ -33,6 +34,7 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
+      - echo Compiling the s3 code
       - aws s3 rm s3://mosque-finder-aus --quiet --recursive
       - aws s3 sync public/mosque s3://mosque-finder-aus/mosque --quiet --acl public-read
       - aws s3 cp public/index.html s3://mosque-finder-aus --acl public-read
@@ -57,8 +59,16 @@ phases:
 # ExpressJS apps will need other artifact directories included (bin/*, public/*, routes/*, views/* etc).
 artifacts:
   files:
-    - app.js
+#   - app.js
+    - loadDateToPage-v2.js
+    - copyDataFiles.js
+    - loadStatePrayerTimeSitemap.js
+    - loadStateList.js
+    - loadMosqueDetails.js
     - index.html
     - package.json
-    - node_modules/async/*
-    - node_modules/lodash/*
+    - public/
+    - _data/
+    - _templates/
+#    - node_modules/async/*
+#    - node_modules/lodash/*

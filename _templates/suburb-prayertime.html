@@ -302,7 +302,7 @@ function isDLS(date){
     return (isInBetween(new Date('1-jan-'+yr), new Date(firstSunday(3 , yr)), new Date(date)) ||
         isInBetween(new Date(firstSunday(9 , yr)), new Date('31-dec-'+yr), new Date(date) ))
 }
-var PT = new PrayTimes('ISNA');
+var PT = new PrayTimes('MWL');
 var state = '{{state}}';
 var lat = '{{latitude}}';
 var lon = '{{longitude}}';

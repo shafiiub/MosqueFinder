@@ -51,8 +51,8 @@ phases:
       - aws s3 sync public/nt s3://mosque-finder-aus/nt --quiet --acl public-read --delete
       - aws s3 sync public/act s3://mosque-finder-aus/act --quiet --acl public-read --delete
       - aws s3 sync public/assets s3://mosque-finder-aus/assets --quiet --acl public-read --delete
-
-#      - aws cloudfront create-invalidation --distribution-id E2GHX5GY0JOGQD --paths '/*'
+      - aws cloudfront create-invalidation --distribution-id E2GHX5GY0JOGQD --paths '/*'
+      
 # Include only the files required for your application to run.
 # Do not use recursively include artifacts from node_modules directory as it will include unnecessary packages 
 # used only for building and testing.

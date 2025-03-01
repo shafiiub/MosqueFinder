@@ -35,24 +35,24 @@ phases:
     commands:
       - echo Build completed on `date`
       - echo Compiling the s3 code
-      - aws s3 rm s3://mosque-finder-aus --quiet --recursive
-      - aws s3 sync public/mosque s3://mosque-finder-aus/mosque --quiet --acl public-read
-      - aws s3 cp public/index.html s3://mosque-finder-aus --acl public-read
-      - aws s3 sync public/nsw s3://mosque-finder-aus/nsw --quiet --acl public-read --delete
-      - aws s3 cp  public/robots.txt s3://mosque-finder-aus --acl public-read
-      - aws s3 cp  public/error.html s3://mosque-finder-aus --acl public-read
-      - aws s3 sync public/vic s3://mosque-finder-aus/vic --quiet --acl public-read --delete
-      - aws s3 cp  public/contact.html s3://mosque-finder-aus --acl public-read
-      - aws s3 cp  public/update.html s3://mosque-finder-aus --acl public-read
-      - aws s3 sync public/qld s3://mosque-finder-aus/qld --quiet --acl public-read --delete
-      - aws s3 sync public/tas s3://mosque-finder-aus/tas --quiet --acl public-read --delete
-      - aws s3 sync public/sa s3://mosque-finder-aus/sa --quiet --acl public-read --delete
-      - aws s3 sync public/wa s3://mosque-finder-aus/wa --quiet --acl public-read --delete
-      - aws s3 sync public/nt s3://mosque-finder-aus/nt --quiet --acl public-read --delete
-      - aws s3 sync public/act s3://mosque-finder-aus/act --quiet --acl public-read --delete
-      - aws s3 sync public/assets s3://mosque-finder-aus/assets --quiet --acl public-read --delete
+      - aws s3 rm s3://mosque-finder.com.au --quiet --recursive
+      - aws s3 sync public/mosque s3://mosque-finder.com.au/mosque --quiet --acl public-read
+      - aws s3 cp public/index.html s3://mosque-finder.com.au --acl public-read
+      - aws s3 sync public/nsw s3://mosque-finder.com.au/nsw --quiet --acl public-read --delete
+      - aws s3 cp  public/robots.txt s3://mosque-finder.com.au --acl public-read
+      - aws s3 cp  public/error.html s3://mosque-finder.com.au --acl public-read
+      - aws s3 sync public/vic s3://mosque-finder.com.au/vic --quiet --acl public-read --delete
+      - aws s3 cp  public/contact.html s3://mosque-finder.com.au --acl public-read
+      - aws s3 cp  public/update.html s3://mosque-finder.com.au --acl public-read
+      - aws s3 sync public/qld s3://mosque-finder.com.au/qld --quiet --acl public-read --delete
+      - aws s3 sync public/tas s3://mosque-finder.com.au/tas --quiet --acl public-read --delete
+      - aws s3 sync public/sa s3://mosque-finder.com.au/sa --quiet --acl public-read --delete
+      - aws s3 sync public/wa s3://mosque-finder.com.au/wa --quiet --acl public-read --delete
+      - aws s3 sync public/nt s3://mosque-finder.com.au/nt --quiet --acl public-read --delete
+      - aws s3 sync public/act s3://mosque-finder.com.au/act --quiet --acl public-read --delete
+      - aws s3 sync public/assets s3://mosque-finder.com.au/assets --quiet --acl public-read --delete
       - aws cloudfront create-invalidation --distribution-id E2GHX5GY0JOGQD --paths '/*'
-      
+
 # Include only the files required for your application to run.
 # Do not use recursively include artifacts from node_modules directory as it will include unnecessary packages 
 # used only for building and testing.

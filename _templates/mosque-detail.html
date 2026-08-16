@@ -423,9 +423,9 @@
             isInBetween(new Date(firstSunday(9 , yr)), new Date('31-dec-'+yr), new Date(date) ))
     }
     var PT = new PrayTimes('MWL');
-    var state = '{{state}}';
-    var lat = '{{latitude}}';
-    var lon = '{{longitude}}';
+    var state = {{stateJson}};
+    var lat = {{latitudeJson}};
+    var lon = {{longitudeJson}};
     var dt = new Date(); //today
     var yr = dt.getFullYear();
     
@@ -480,7 +480,7 @@
         $(window).load(function(){
             var rtl = false; // Use RTL
             initializeOwl(rtl);
-            itemDetailMap({latitude:"{{latitude}}",longitude:"{{longitude}}"});
+            itemDetailMap({latitude:{{latitudeJson}},longitude:{{longitudeJson}}});
         });
 </script>
 

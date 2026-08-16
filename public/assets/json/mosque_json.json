@@ -378,34 +378,6 @@
             "Content": "<p>(Building currently under construction)</p>"
         },
         {
-            "id": "21",
-            "Title": "Bankstown - Adnum Lane Musallah",
-            "URLSegment": "bankstown-adnum-lane-musallah",
-            "Teaser": "Open for all 5 daily prayers. Jummah held at a seperate location. ",
-            "ListingType": "Musalla",
-            "Address": "108 Adnum Lane",
-            "Suburb": " Bankstown",
-            "State": "NSW",
-            "Postcode": "2200",
-            "Latitude": "-33.91689",
-            "Longitude": "151.03362",
-            "Phone": null,
-            "Fax": null,
-            "Email": "mohammad.khan@eds.com",
-            "Website": null,
-            "JummahLocation": "1",
-            "JummahDescription": "Jummah starting time and language details unknown",
-            "JummahTime": null,
-            "JummahAddress": "15 Winspear Avenue, Bankstown. NSW 2200",
-            "JummahLatitude": "-33.91689",
-            "JummahLongitude": "151.03362",
-            "gallery": [
-                "/assets/img/no-img-found.jpg"
-            ],
-            "features": [],
-            "Content": "<p>Open for all 5 daily prayers. Jummah held at a seperate location. Turn into Adnum Lane which is situated right next to 6 Fetherstone Street (walk to the end of the Adnum Lane, then turn 'left' and the musalla is located on the top of the stairs)</p>"
-        },
-        {
             "id": "22",
             "Title": "Bankstown - Daar Ibn Abbas College - Cross Street Musalla",
             "URLSegment": "bankstown-daar-ibn-abbas-college-cross-street-musalla",
@@ -696,7 +668,7 @@
                 "/assets/Uploads/afghan-mosque-gs.jpg"
             ],
             "features": [],
-            "Content": "<p>Close to the border of South Australia. Mosque is located at the corner of Williams Street and Buck Street</p>\n<p><strong>Broken Hill Mosque</strong><br> Australia's first mosque was built at Maree in northern South Australia in 1861, the first large mosque was built in Adelaide in 1890, and the first mosque in NSW in Broken Hill in 1887. The mosque was originally located at a camp in West Broken Hill and was relocated to its present site about 1903-1904. It was constructed by the Afghans and comprises a modest structure made from wood and corrugated iron sheeting, painted rust red (which is the colour of the original mosque and a typical colour of Broken Hill). The adjoining anteroom is also constructed of the same materials. The mosque sits on a dusty site at the edge of town, with an avenue of date palm trees, planted in 1965 by the Broken Hill Historical Society. At the entrance of the site are two olive trees which were planted by The Islamic Council of NSW in December 2008. Surrounding the mosque are original camel wagon wheels made from wood and iron used by prominent Afghans in the town; mainly Shamroze Khan and Poujen Khan. To the far eastern corner of the site is the water trough used by the men to make their ablutions before they entered the mosque. Upon removing their footwear the men stood beside the concrete channel as water was poured over their feet and they entered the mosque using specially constructed stepping stones which are now housed in the adjoining museum.</p>\n<p>The mosque was well used even when the Ghan community diminished in later years and the few Muslims remaining in Broken Hill continued to use it regularly up till 1940 and then less frequently until the death of the last Mullah in the 1950's. After his death the mosque fell into disuse and was vandalised. Dost Mahomet was a prominent Afghan Camel driver who worked at Broken Hill. He arrived with the camels and later travelled part of the distance and assisted the explorers. His grave lies three kilometres from Menindee, on the road to Broken Hill, and is the first known Muslim person to be buried on Australian soil (Matthews, 1997). At present there are few descendants of the early Afghan families in Broken Hill. The mosque has been renovated and refurnished by members and friends of the Broken Hill Historical Society and the Islamic Council of NSW to mark a unique but important phase in the development of transport in the West Darling district of NSW.</p>\n<p><a href=\"http://www.almirajsuficentre.org.au/islamic_history_in_broken_hill.php\">Read the full story</a></p>"
+            "Content": "<p>Close to the border of South Australia. Mosque is located at the corner of Williams Street and Buck Street</p>\n<p><strong>Broken Hill Mosque</strong><br> Australia's first mosque was built at Maree in northern South Australia in 1861, the first large mosque was built in Adelaide in 1890, and the first mosque in NSW in Broken Hill in 1887. The mosque was originally located at a camp in West Broken Hill and was relocated to its present site about 1903-1904. It was constructed by the Afghans and comprises a modest structure made from wood and corrugated iron sheeting, painted rust red (which is the colour of the original mosque and a typical colour of Broken Hill). The adjoining anteroom is also constructed of the same materials. The mosque sits on a dusty site at the edge of town, with an avenue of date palm trees, planted in 1965 by the Broken Hill Historical Society. At the entrance of the site are two olive trees which were planted by The Islamic Council of NSW in December 2008. Surrounding the mosque are original camel wagon wheels made from wood and iron used by prominent Afghans in the town; mainly Shamroze Khan and Poujen Khan. To the far eastern corner of the site is the water trough used by the men to make their ablutions before they entered the mosque. Upon removing their footwear the men stood beside the concrete channel as water was poured over their feet and they entered the mosque using specially constructed stepping stones which are now housed in the adjoining museum.</p>\n<p>The mosque was well used even when the Ghan community diminished in later years and the few Muslims remaining in Broken Hill continued to use it regularly up till 1940 and then less frequently until the death of the last Mullah in the 1950's. After his death the mosque fell into disuse and was vandalised. Dost Mahomet was a prominent Afghan Camel driver who worked at Broken Hill. He arrived with the camels and later travelled part of the distance and assisted the explorers. His grave lies three kilometres from Menindee, on the road to Broken Hill, and is the first known Muslim person to be buried on Australian soil (Matthews, 1997). At present there are few descendants of the early Afghan families in Broken Hill. The mosque has been renovated and refurnished by members and friends of the Broken Hill Historical Society and the Islamic Council of NSW to mark a unique but important phase in the development of transport in the West Darling district of NSW.</p>\n<p><a href=\"http://www.almirajsuficentre.org.au/islamic_history_in_broken_hill.php\">Read the full story</a></p><p>Correction: \"The mosque was originally located at a camp in West Broken Hill and was relocated to its present site about 1903-1904\" This is incorrect, \"the North Camel Camp Mosque has always been at this location and there is a small building that now resides behind this mosque which is the mosque from the West Camel Camp. The adjoining anteroom of the North Camel Camp Mosque has now become a museum for Cameleer artefacts.\"</p>"
         },
         {
             "id": "32",
@@ -2346,34 +2318,6 @@
             ],
             "features": [],
             "Content": "<p>Only open for Maghrib and Isha prayers</p>"
-        },
-        {
-            "id": "88",
-            "Title": "Casula - The Global Islamic Youth Centre (GIYC)",
-            "URLSegment": "casula-the-global-islamic-youth-centre-giyc",
-            "Teaser": "Friday Jumaah Prayers khutbah is in English and it starts at 1:15pm.",
-            "ListingType": "Mosque",
-            "Address": "14/493 Hume Highway",
-            "Suburb": "Casula",
-            "State": "NSW",
-            "Postcode": "2170",
-            "Latitude": "-33.94291",
-            "Longitude": "150.91096",
-            "Phone": null,
-            "Fax": null,
-            "Email": null,
-            "Website": null,
-            "JummahLocation": "0",
-            "JummahDescription": "Friday Jumaah Prayers khutbah is in English and it starts at 1:15pm.",
-            "JummahTime": "1:15pm",
-            "JummahAddress": null,
-            "JummahLatitude": "0.00000",
-            "JummahLongitude": "0.00000",
-            "gallery": [
-                "/assets/img/no-img-found.jpg"
-            ],
-            "features": [],
-            "Content": "<p><span>The Global Islamic Youth Centre (GIYC) was established in July of 2000 by a handful of brothers seeking Allaah’s Pleasure by</span><span class=\"text_exposed_show\"> establishing a centre encompassing the needs of the local Islamic Community. Hence the vision was to cater for the physical, social, educational and religious needs, especially for the youth and the children, in accordance with the teachings of the Qur’aan and Sunnah and hence to gain the pleasure of the Almighty Creator.</span></p>\n<p>Open for day salat every day including Fajir salat, Wednesday night and friday night lectures. Closed Sunday.<br>Friday Jumaah Prayers khutbah is in English and it starts at 1:15pm.</p>\n<ol><li>Daily Prayers - Open everyday; Fajr, Dhuhr, Asr, Maghrib, Eshaa</li>\n<li>Jumaah Prayer - every Friday at GIYC</li>\n<li>Islamic Education - GIYC Shariah College for Brothers and Sisters. ( Qur’an, Hadeeth, Tajweed, Fiqh, Aqeedah, Arabic and Salaat / Prayer workshops )</li>\n<li>Inspirational Lectures - Islamic knowledge &amp; understanding for today’s generation</li>\n<li>Childrens Madrassah - Kindergarten right through to High School</li>\n<li>Islamic Guidance/Assistance &amp; Counselling - Qualified Islamic Scholars available at GIYC</li>\n<li>New Islamic Reverts Program – ‘Back to Basics Course.’ Guidance, follow up and assistance</li>\n<li>Welfare - Australian Zakaat Fund ( GIYC based for Australian Needy Muslims), Poor and Needy clothes drive, Food Parcels, supporting international organisations such as Human Appeal Charity and others</li>\n<li>Bookstore - Huge variety of the latest books, DVD’s, audio, accessories &amp; gifts as well as Internet Facilities</li>\n<li>Eid Prayers- Ramadan Eid Prayer and Adha Eid Prayer as well as celebrations</li>\n<li>Ramadan - Iftar, Taraweeh Prayers, Suhoor and Itikaf</li>\n</ol>"
         },
         {
             "id": "89",

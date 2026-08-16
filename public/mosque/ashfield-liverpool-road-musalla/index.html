@@ -79,8 +79,8 @@
                             </a>
                         </div-->
                         <ol class="breadcrumb">
-                            <li><a href="index-directory.html"><i class="fa fa-home"></i></a></li>
-                            <li><a href="/NSW">NSW</a></li>
+                            <li><a href="/index.html"><i class="fa fa-home"></i></a></li>
+                            <li><a href="/nsw/index.html">nsw</a></li>
                             <li class="active">Ashfield</li>
                         </ol>
                         <!-- /.breadcrumb-->
@@ -103,7 +103,7 @@
                                 <header class="page-title">
                                     <div class="title">
                                         <h1>Ashfield - Liverpool Road Musalla</h1>
-                                        <figure>Ashfield, NSW</figure>
+                                        <figure>Ashfield, nsw</figure>
                                     </div>
                                     <div class="info">
                                         <div class="type">
@@ -120,7 +120,7 @@
                                             <header><h3>Address</h3></header>
                                             <address>
                                                 <div>241A Liverpool Road</div>
-                                                <div>Ashfield, NSW-2131</div>
+                                                <div>Ashfield, nsw-2131</div>
                                                 <figure>
                                                     
                                                     
@@ -201,11 +201,13 @@
                                                     <li>Minigolf</li-->
                                                 </ul>
                                             </article>
-
+                                            <article class="block">
+                                                <a href="/update.html"><i class="fa fa-edit"> Report/Update incorrect information.</i></a>
+                                            </article>
                                             <!-- /.block -->
                                             <!-- /.block -->
                                             <article class="block">
-                                                <header><h2>7 day Prayer time calendar for Ashfield, NSW-2131</h2></header>
+                                                <header><h2>7 day Prayer time calendar for Ashfield, nsw-2131</h2></header>
                                                 <table id="weeklyPrayer" class="table table-bordered">
                                                 </table>
                                             </article>
@@ -318,15 +320,15 @@
                             <div class="col-md-4 col-sm-4">
                                 <!--Recent Reviews-->
                                 <section>
-                                    <h2>Prayer time by suburbs </h2>
+                                    <h2>Prayer location by state </h2>
                                     <ul class="bullets">
-                                        <li><a href="/nsw/">Prayer time NSW</a></li>
-                                        <li><a href="/qld/">Prayer time QLD</a></li>
-                                        <li><a href="/vic/">Prayer time VIC</a></li>
-                                        <li><a href="/act/">Prayer time ACT</a></li>
-                                        <li><a href="/nt/">Prayer time NT</a></li>
-                                        <li><a href="/sa/">Prayer time SA</a></li>
-                                        <li><a href="/wa/">Prayer time WA</a></li>
+                                        <li><a href="/nsw/">NSW locations</a></li>
+                                        <li><a href="/qld/">QLD locations</a></li>
+                                        <li><a href="/vic/">VIC locations</a></li>
+                                        <li><a href="/act/">ACT locations</a></li>
+                                        <li><a href="/nt/">NT locations</a></li>
+                                        <li><a href="/sa/">SA locations</a></li>
+                                        <li><a href="/wa/">WA locations</a></li>
                                     
                                     </ul>
                                     <!--/.review-->
@@ -335,13 +337,22 @@
                             </div>
                             <div class="col-md-4 col-sm-4">
                                 <section>
-                                    <h2>About Us</h2>
+                                    <h2>Prayer time by suburbs/postcodes</h2>
+                                    <ul class="bullets">
+                                        <li><a href="/nsw/postcode.html">Prayer time NSW</a></li>
+                                        <li><a href="/qld/postcode.html">Prayer time QLD</a></li>
+                                        <li><a href="/vic/postcode.html">Prayer time VIC</a></li>
+                                        <li><a href="/act/postcode.html">Prayer time ACT</a></li>
+                                        <li><a href="/nt/postcode.html">Prayer time NT</a></li>
+                                        <li><a href="/sa/postcode.html">Prayer time SA</a></li>
+                                        <li><a href="/wa/postcode.html">Prayer time WA</a></li>
+                                    
+                                    </ul>
+                                    <!--/.review-->
                                     <div class="social">
                                         <!--a href="#" class="social-button"><i class="fa fa-twitter"></i></a-->
                                         <a href="https://www.facebook.com/AustralianMosqueFinder" class="social-button"><i class="fa fa-facebook"></i></a>
                                     </div>
-
-                                    <a href="/contact.html" class="btn framed icon">Contact Us<i class="fa fa-angle-right"></i></a>
                                 </section>
                             </div>
                             <!--/.col-md-4-->
@@ -411,10 +422,10 @@
         return (isInBetween(new Date('1-jan-'+yr), new Date(firstSunday(3 , yr)), new Date(date)) ||
             isInBetween(new Date(firstSunday(9 , yr)), new Date('31-dec-'+yr), new Date(date) ))
     }
-    var PT = new PrayTimes('ISNA');
-    var state = 'NSW';
-    var lat = '-33.88899';
-    var lon = '151.12561';
+    var PT = new PrayTimes('MWL');
+    var state = "nsw";
+    var lat = -33.88899;
+    var lon = 151.12561;
     var dt = new Date(); //today
     var yr = dt.getFullYear();
     
@@ -431,7 +442,7 @@
             return 8;
         }
     }
-    var times = PT.getTimes(dt, [lat, lon], tz(state,dt));
+    var times = PT.getTimes(dt, [lat, lon], tz(state,dt), 0);
     //getTimes (date, coordinates [, timeZone [, dst [, timeFormat]]])
     //document.write('Sunrise = '+ times.sunrise)
     //var ptimeToday =
@@ -458,7 +469,7 @@
                 var wd =new Date((new Date()).getTime() + (i*60*60*24*1000));
                 //var wd = new Date()+(i * 24 * 60 * 60 * 1000);
                 yr = dt.getFullYear();
-                times = PT.getTimes(wd, [lat, lon], tz(state,wd));
+                times = PT.getTimes(wd, [lat, lon], tz(state,wd), 0);
                 weekly = weekly + '    <tr><td>'+wd.toString().split(yr)[0] +'</td><td>'+ times.fajr +'</td><td>'+ times.sunrise +'</td><td>'+ times.dhuhr +'</td><td>'+ times.asr +'</td><td>'+ times.maghrib +'</td><td>'+ times.isha +'</td></tr>';
             }
     
@@ -469,7 +480,7 @@
         $(window).load(function(){
             var rtl = false; // Use RTL
             initializeOwl(rtl);
-            itemDetailMap({latitude:"-33.88899",longitude:"151.12561"});
+            itemDetailMap({latitude:-33.88899,longitude:151.12561});
         });
 </script>
 

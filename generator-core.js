@@ -284,7 +284,7 @@ function sitemapEntry(url) {
 async function generateStatePrayerTimeSitemap() {
   const { sourceRoot, outputRoot } = roots();
   const [pageTemplate, listTemplate, suburbs] = await Promise.all([
-    readText(sourceRoot, '_templates/suburb-prayertime.html'), readText(sourceRoot, '_templates/state-listing.html'), loadSuburbs(sourceRoot),
+    readText(sourceRoot, '_templates/suburb-prayertime.html'), readText(sourceRoot, '_templates/postcode-listing.html'), loadSuburbs(sourceRoot),
   ]);
   const grouped = Object.fromEntries(STATES.map((state) => [state, []]));
   suburbs.records.forEach((record) => grouped[record.state].push(record));
@@ -292,9 +292,15 @@ async function generateStatePrayerTimeSitemap() {
   for (const state of STATES) {
     const sitemap = grouped[state].map((record) => sitemapEntry(`https://mosque-finder.com.au/${record.route}/index.html`));
     plans.push({ relativePath: `${state}/sitemap.xml`, content: xmlDocument(sitemap) });
-    const items = grouped[state].map((record) => `<li><a href="${escapeHtml(`https://mosque-finder.com.au/${record.route}/index.html`)}">postcode: ${escapeHtml(record.postcode)} - Suburb: ${escapeHtml(record.suburb)}</a></li>`).join('');
+    const items = grouped[state].map((record) => {
+      const route = `/${record.route}/index.html`;
+      validateInternalPath(route, `Suburblist[${record.index}] generated route`);
+      return `<li class="postcode-list__item" data-postcode-item><a href="${escapeHtml(route)}"><span class="postcode-list__code">${escapeHtml(record.postcode)}</span><span class="postcode-list__suburb">${escapeHtml(record.suburb)}</span></a></li>`;
+    }).join('');
     plans.push({ relativePath: `${state}/postcode.html`, content: render(listTemplate, {
-      title: escapeHtml(`${state.toUpperCase()} Postcode and Suburb list`), state: escapeHtml(state), statelist: `<ul class="bullets">${items}</ul>`,
+      title: escapeHtml(`${state.toUpperCase()} postcode and suburb prayer times`), state: escapeHtml(state),
+      stateUpper: escapeHtml(state.toUpperCase()), resultCount: String(grouped[state].length),
+      statelist: `<ul class="postcode-list" data-postcode-list>${items}</ul>`,
     }, `${state} postcode list`) });
   }
   const count = await writePlans(outputRoot, plans);

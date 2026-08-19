@@ -14,6 +14,7 @@ const scripts = ['loadDateToPage-v2.js', 'copyDataFiles.js', 'loadStatePrayerTim
 
 const suburbTemplate = '<!doctype html><title>{{title}}</title><p>{{suburb}} {{state}} {{postcode}} {{latitude}} {{longitude}}</p><script>const state={{stateJson}},lat={{latitudeJson}},lon={{longitudeJson}};</script>';
 const stateTemplate = '<!doctype html><title>{{title}}</title><main data-state="{{state}}">{{statelist}}</main>';
+const postcodeTemplate = '<!doctype html><title>{{title}}</title><main data-state="{{state}}" data-label="{{stateUpper}}" data-count="{{resultCount}}">{{statelist}}</main>';
 const mosqueTemplate = '<!doctype html><title>{{title}}</title><p>{{address}} {{suburb}} {{state}} {{postcode}} {{latitude}} {{longitude}} {{category}}</p>{{phone}}{{email}}{{website}}{{jummah}}{{jummahOther}}{{gallery}}{{thumbs}}{{content}}{{jummahloc}}<ul>{{features}}</ul><script>const state={{stateJson}},lat={{latitudeJson}},lon={{longitudeJson}};itemDetailMap({latitude:{{latitudeJson}},longitude:{{longitudeJson}}});</script>';
 
 function suburbs(second = null) {
@@ -43,6 +44,7 @@ async function fixture(options = {}) {
   await fsp.writeFile(path.join(root, '_data/mosque_home.json'), JSON.stringify({ data: [] }));
   if (!options.missingTemplate) await fsp.writeFile(path.join(root, '_templates/suburb-prayertime.html'), suburbTemplate);
   await fsp.writeFile(path.join(root, '_templates/state-listing.html'), stateTemplate);
+  await fsp.writeFile(path.join(root, '_templates/postcode-listing.html'), postcodeTemplate);
   await fsp.writeFile(path.join(root, '_templates/mosque-detail.html'), mosqueTemplate);
   return root;
 }
@@ -183,6 +185,20 @@ test('unresolved required placeholders fail before writes', async () => {
   assert.notEqual(result.status, 0);
   assert.match(result.stderr, /unresolved required token.*notProvided/);
   assert.deepEqual(await filesUnder(output), []);
+});
+
+test('postcode directories use dedicated semantics and root-relative suburb links', async () => {
+  const source = await fixture();
+  const output = path.join(source, 'output');
+  const result = runScript('loadStatePrayerTimeSitemap.js', source, output);
+  assert.equal(result.status, 0, result.stderr);
+  const nsw = await fsp.readFile(path.join(output, 'nsw/postcode.html'), 'utf8');
+  assert.match(nsw, /data-label="NSW" data-count="1"/);
+  assert.match(nsw, /class="postcode-list" data-postcode-list/);
+  assert.match(nsw, /href="\/nsw\/2000\/test-town\/index\.html"/);
+  assert.match(nsw, /postcode-list__code">2000/);
+  assert.match(nsw, /postcode-list__suburb">Test &amp; Town/);
+  assert.doesNotMatch(nsw, /https:\/\/mosque-finder\.com\.au\/nsw\/2000/);
 });
 
 test('fixture build has expected artifacts, non-empty mosque pages, parseable JSON/XML, and no unresolved tokens', async () => {

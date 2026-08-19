@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/logo/favicon-32x32.png">
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/template-pages.css">
+    <title>{{title}}</title>
+</head>
+<body class="page-subpage postcode-page" id="page-top">
+<header class="header"><div class="wrapper postcode-page__header"><div class="brand"><a href="/index.html"><img src="/assets/img/logo.png" alt="Mosque Finder home"></a></div></div></header>
+<main id="page-content">
+    <div class="container postcode-page__container">
+        <nav aria-label="Breadcrumb"><ol class="breadcrumb"><li><a href="/index.html">Home</a></li><li aria-current="page">{{stateUpper}}</li></ol></nav>
+        <header class="postcode-page__intro">
+            <p class="postcode-page__eyebrow">Prayer times by location</p>
+            <h1 class="page-title">{{title}}</h1>
+            <p>Choose a suburb or postcode in {{stateUpper}} to view its seven-day prayer timetable.</p>
+        </header>
+        <section class="postcode-directory" aria-labelledby="postcode-directory-heading" data-postcode-directory>
+            <h2 id="postcode-directory-heading" class="sr-only">{{stateUpper}} suburb directory</h2>
+            <div class="postcode-directory__tools" data-postcode-tools hidden>
+                <label for="postcode-filter">Find a suburb or postcode</label>
+                <input id="postcode-filter" class="form-control" type="search" inputmode="search" autocomplete="off" placeholder="For example, 2000 or Sydney" aria-controls="postcode-results" data-postcode-filter>
+                <p class="postcode-directory__summary" id="postcode-results" role="status" aria-live="polite"><span data-visible-count>{{resultCount}}</span> locations</p>
+            </div>
+            {{statelist}}
+            <p class="postcode-directory__empty" data-postcode-empty hidden>No matching suburbs or postcodes. Check the spelling or try fewer characters.</p>
+        </section>
+    </div>
+</main>
+<footer id="page-footer"><div class="footer-bottom"><div class="container"><a href="/index.html">Mosque Finder</a> &copy; 2020</div></div></footer>
+<script src="/assets/js/postcode-filter.js" defer></script>
+</body>
+</html>

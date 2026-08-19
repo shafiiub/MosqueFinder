@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="/assets/css/bootstrap-select.min.css" type="text/css">
     <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
     <link rel="stylesheet" href="/assets/css/user.style.css" type="text/css">
+    <link rel="stylesheet" href="/assets/css/template-pages.css" type="text/css">
 
     <title>{{title}}</title>
 
@@ -104,8 +105,9 @@
                        <div class="content">
                        <h2>7 day Prayer time calendar for {{suburb}}, {{state}}-{{postcode}}</h2>
                
-                        <table id="weeklyPrayer" class="table table-bordered">
-                        </table>
+                        <div class="prayer-table-scroll" role="region" aria-label="Seven day prayer timetable" tabindex="0">
+                            <table id="weeklyPrayer" class="table table-bordered"></table>
+                        </div>
                        </div>
                           
                    </article>
